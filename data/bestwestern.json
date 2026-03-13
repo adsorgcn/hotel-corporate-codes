@@ -1,0 +1,20 @@
+[
+  {
+    "code": "01261720",
+    "company": "Siemens",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "No",
+    "note": "",
+    "verified": "2026-03"
+  },
+  {
+    "code": "AAA",
+    "company": "AAA",
+    "discount": "5-10%",
+    "region": "NA",
+    "idRequired": "AAA card",
+    "note": "Strong partnership.",
+    "verified": "2026-02"
+  }
+]

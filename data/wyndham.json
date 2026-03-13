@@ -1,0 +1,29 @@
+[
+  {
+    "code": "8000003449",
+    "company": "Siemens",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "No",
+    "note": "",
+    "verified": "2026-03"
+  },
+  {
+    "code": "1000012142",
+    "company": "IBM",
+    "discount": "8-12%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "AAA",
+    "company": "AAA",
+    "discount": "5-10%",
+    "region": "NA",
+    "idRequired": "AAA card",
+    "note": "",
+    "verified": "2026-01"
+  }
+]

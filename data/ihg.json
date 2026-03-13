@@ -1,0 +1,218 @@
+[
+  {
+    "code": "104256",
+    "company": "Siemens",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "No",
+    "note": "Best IHG code. Also 000104256.",
+    "verified": "2026-03"
+  },
+  {
+    "code": "000243132",
+    "company": "IBM",
+    "discount": "8-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "Shanghai: no check + upgrade.",
+    "verified": "2025-12"
+  },
+  {
+    "code": "100119498",
+    "company": "Deloitte",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-11"
+  },
+  {
+    "code": "000102806",
+    "company": "GE",
+    "discount": "8-12%",
+    "region": "Global",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "000103772",
+    "company": "Ford",
+    "discount": "8-12%",
+    "region": "NA",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "954410926",
+    "company": "Cisco",
+    "discount": "8-12%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "100183394",
+    "company": "Oracle",
+    "discount": "8-12%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-11"
+  },
+  {
+    "code": "101672",
+    "company": "3M",
+    "discount": "8-12%",
+    "region": "Global",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-11"
+  },
+  {
+    "code": "100857558",
+    "company": "Microsoft",
+    "discount": "8-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-11"
+  },
+  {
+    "code": "954284898",
+    "company": "Dell",
+    "discount": "8-12%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "293512",
+    "company": "Walmart",
+    "discount": "8-10%",
+    "region": "NA",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "100211707",
+    "company": "Lenovo",
+    "discount": "8-12%",
+    "region": "Global",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "150711",
+    "company": "AT&T",
+    "discount": "8-12%",
+    "region": "NA",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "888400",
+    "company": "Target",
+    "discount": "8-10%",
+    "region": "NA",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "000109207",
+    "company": "FedEx",
+    "discount": "8-12%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "109568",
+    "company": "Bank of America",
+    "discount": "8-12%",
+    "region": "NA",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "100371240",
+    "company": "Honda",
+    "discount": "8-10%",
+    "region": "Global",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "954409548",
+    "company": "Toyota",
+    "discount": "8-10%",
+    "region": "Global",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "108146",
+    "company": "UPS",
+    "discount": "8-10%",
+    "region": "NA",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "128813",
+    "company": "Coca-Cola",
+    "discount": "8-12%",
+    "region": "Global",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "953100013",
+    "company": "Philips",
+    "discount": "8-12%",
+    "region": "EU+NA",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "128554",
+    "company": "Motorola",
+    "discount": "8-10%",
+    "region": "NA",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "787158528",
+    "company": "Perkopolis",
+    "discount": "Varies",
+    "region": "NA",
+    "idRequired": "No",
+    "note": "Public weekend discount.",
+    "verified": "2025-12"
+  },
+  {
+    "code": "AAA",
+    "company": "AAA",
+    "discount": "5-10%",
+    "region": "NA",
+    "idRequired": "AAA card",
+    "note": "",
+    "verified": "2026-01"
+  }
+]

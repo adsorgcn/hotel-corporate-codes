@@ -1,0 +1,569 @@
+[
+  {
+    "code": "SIE",
+    "company": "Siemens",
+    "discount": "15-22%",
+    "region": "Global",
+    "idRequired": "Rarely",
+    "note": "Best overall. Personal travel allowed.",
+    "verified": "2026-03"
+  },
+  {
+    "code": "IBM",
+    "company": "IBM",
+    "discount": "10-18%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "Higher in business cities.",
+    "verified": "2026-02"
+  },
+  {
+    "code": "ACC",
+    "company": "Accenture",
+    "discount": "12-20%",
+    "region": "NA+EU",
+    "idRequired": "Rarely",
+    "note": "Consulting hub cities.",
+    "verified": "2026-01"
+  },
+  {
+    "code": "DEL",
+    "company": "Dell",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-12"
+  },
+  {
+    "code": "DTC",
+    "company": "Deloitte",
+    "discount": "10-18%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-12"
+  },
+  {
+    "code": "EYC",
+    "company": "Ernst & Young",
+    "discount": "10-18%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-12"
+  },
+  {
+    "code": "GEE",
+    "company": "General Electric",
+    "discount": "12-18%",
+    "region": "Global",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-12"
+  },
+  {
+    "code": "GGL",
+    "company": "Google",
+    "discount": "10-18%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-12"
+  },
+  {
+    "code": "APL",
+    "company": "Apple",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-11"
+  },
+  {
+    "code": "APC",
+    "company": "Apple (alt)",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "Try both APL and APC.",
+    "verified": "2025-11"
+  },
+  {
+    "code": "MCO",
+    "company": "Microsoft",
+    "discount": "10-18%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-12"
+  },
+  {
+    "code": "ORA",
+    "company": "Oracle",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "Also try ORC and SUN.",
+    "verified": "2025-11"
+  },
+  {
+    "code": "SAP",
+    "company": "SAP",
+    "discount": "12-18%",
+    "region": "EU+NA",
+    "idRequired": "Rarely",
+    "note": "Strong in Germany.",
+    "verified": "2025-12"
+  },
+  {
+    "code": "CIS",
+    "company": "Cisco",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-11"
+  },
+  {
+    "code": "HPQ",
+    "company": "HP",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "IBS",
+    "company": "Intel",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "ATT",
+    "company": "AT&T",
+    "discount": "10-15%",
+    "region": "NA",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-11"
+  },
+  {
+    "code": "FSF",
+    "company": "Facebook/Meta",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-11"
+  },
+  {
+    "code": "QUA",
+    "company": "Qualcomm",
+    "discount": "10-15%",
+    "region": "NA",
+    "idRequired": "Rarely",
+    "note": "SD area.",
+    "verified": "2025-10"
+  },
+  {
+    "code": "BOA",
+    "company": "Bank of America",
+    "discount": "10-15%",
+    "region": "NA",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-12"
+  },
+  {
+    "code": "JPM",
+    "company": "JP Morgan Chase",
+    "discount": "10-18%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-11"
+  },
+  {
+    "code": "CIT",
+    "company": "Citigroup",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-11"
+  },
+  {
+    "code": "HSB",
+    "company": "HSBC",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-11"
+  },
+  {
+    "code": "UBS",
+    "company": "UBS",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "AMX",
+    "company": "American Express",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-11"
+  },
+  {
+    "code": "MOS",
+    "company": "Morgan Stanley",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "DBK",
+    "company": "Deutsche Bank",
+    "discount": "10-15%",
+    "region": "EU+NA",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "VSA",
+    "company": "VISA",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "PRU",
+    "company": "Prudential",
+    "discount": "10-15%",
+    "region": "NA",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "PEP",
+    "company": "PepsiCo",
+    "discount": "10-15%",
+    "region": "NA",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "COK",
+    "company": "Coca-Cola",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "PAG",
+    "company": "Procter & Gamble",
+    "discount": "10-16%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "Works well in Asia.",
+    "verified": "2025-11"
+  },
+  {
+    "code": "NKE",
+    "company": "Nike",
+    "discount": "10-15%",
+    "region": "NA",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "DIS",
+    "company": "Disney",
+    "discount": "10-15%",
+    "region": "NA",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "GAP",
+    "company": "GAP Inc",
+    "discount": "10-15%",
+    "region": "NA",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "MCD",
+    "company": "McDonald's",
+    "discount": "10-15%",
+    "region": "NA",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "JOH",
+    "company": "Johnson & Johnson",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "PFZ",
+    "company": "Pfizer",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "MMM",
+    "company": "3M",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-11"
+  },
+  {
+    "code": "SHL",
+    "company": "Shell",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "PHI",
+    "company": "Philips",
+    "discount": "10-15%",
+    "region": "EU+NA",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "TSN",
+    "company": "ThyssenKrupp",
+    "discount": "10-15%",
+    "region": "EU",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "MLM",
+    "company": "Bayer",
+    "discount": "10-15%",
+    "region": "EU+NA",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "WEL",
+    "company": "Wells Fargo",
+    "discount": "10-15%",
+    "region": "NA",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "FDS",
+    "company": "Macy's",
+    "discount": "10-15%",
+    "region": "NA",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "PCW",
+    "company": "PwC",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "SON",
+    "company": "Sony",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "TOS",
+    "company": "Toshiba",
+    "discount": "10-15%",
+    "region": "Asia",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "TOY",
+    "company": "Toyota",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "FRD",
+    "company": "Ford",
+    "discount": "10-15%",
+    "region": "NA",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "NIS",
+    "company": "Nissan",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "GMC",
+    "company": "General Motors",
+    "discount": "10-15%",
+    "region": "NA",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "DCX",
+    "company": "DaimlerChrysler",
+    "discount": "10-15%",
+    "region": "EU+NA",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "DLA",
+    "company": "Delta Airlines",
+    "discount": "10-15%",
+    "region": "NA",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "UAL",
+    "company": "United Airlines",
+    "discount": "10-15%",
+    "region": "NA",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "LHS",
+    "company": "Lufthansa M&M Elite",
+    "discount": "10-15%",
+    "region": "EU",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "FED",
+    "company": "FedEx",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-11"
+  },
+  {
+    "code": "A7A",
+    "company": "Alibaba",
+    "discount": "10-20%",
+    "region": "Asia",
+    "idRequired": "Sometimes",
+    "note": "Strong in China.",
+    "verified": "2025-12"
+  },
+  {
+    "code": "MEB",
+    "company": "eBreaks Weekend",
+    "discount": "20% weekends",
+    "region": "NA only",
+    "idRequired": "No",
+    "note": "Fri-Sun stays. Hidden promo.",
+    "verified": "2026-01"
+  },
+  {
+    "code": "OXD",
+    "company": "Student (Enactus)",
+    "discount": "\u00a5400/night",
+    "region": "China select",
+    "idRequired": "No",
+    "note": "No verification. Limited.",
+    "verified": "2025-12"
+  },
+  {
+    "code": "LPR",
+    "company": "Local Promo Rate",
+    "discount": "Varies",
+    "region": "Varies",
+    "idRequired": "No",
+    "note": "Local promotional.",
+    "verified": "2025-12"
+  },
+  {
+    "code": "AAA",
+    "company": "AAA",
+    "discount": "5-15%",
+    "region": "NA",
+    "idRequired": "AAA card",
+    "note": "Universal, safe.",
+    "verified": "2026-02"
+  },
+  {
+    "code": "GOV",
+    "company": "US Government",
+    "discount": "Per diem",
+    "region": "US",
+    "idRequired": "Govt ID",
+    "note": "Federal rate.",
+    "verified": "2025-12"
+  }
+]

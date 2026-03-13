@@ -1,0 +1,83 @@
+[
+  {
+    "code": "16605",
+    "company": "Siemens",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "No",
+    "note": "Best Hyatt code.",
+    "verified": "2026-03"
+  },
+  {
+    "code": "13717",
+    "company": "IBM",
+    "discount": "8-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "Wuhan: strict email check.",
+    "verified": "2025-12"
+  },
+  {
+    "code": "NC95864",
+    "company": "Accenture",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-11"
+  },
+  {
+    "code": "NC16700",
+    "company": "GE",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-11"
+  },
+  {
+    "code": "12624",
+    "company": "Credit Suisse",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "90010",
+    "company": "Oracle",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "60155",
+    "company": "Samsung",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "69333",
+    "company": "US Government",
+    "discount": "Per diem",
+    "region": "US",
+    "idRequired": "Yes",
+    "note": "Govt ID required.",
+    "verified": "2025-12"
+  },
+  {
+    "code": "AAA",
+    "company": "AAA",
+    "discount": "5-10%",
+    "region": "NA",
+    "idRequired": "AAA card",
+    "note": "",
+    "verified": "2026-01"
+  }
+]

@@ -1,0 +1,173 @@
+[
+  {
+    "code": "302844100",
+    "company": "Siemens T1",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "No",
+    "note": "DoubleTree/Embassy/Hampton/Homewood/Home2.",
+    "verified": "2026-03"
+  },
+  {
+    "code": "N0079268",
+    "company": "Siemens Premium",
+    "discount": "12-18%",
+    "region": "Global",
+    "idRequired": "No",
+    "note": "Hilton/Garden Inn/Conrad.",
+    "verified": "2026-03"
+  },
+  {
+    "code": "D323009803",
+    "company": "Siemens Intl",
+    "discount": "10-15%",
+    "region": "International",
+    "idRequired": "No",
+    "note": "Outside US.",
+    "verified": "2026-03"
+  },
+  {
+    "code": "0041604",
+    "company": "MVP",
+    "discount": "15-20%",
+    "region": "Global",
+    "idRequired": "May ask",
+    "note": "Popular widely-shared code.",
+    "verified": "2026-02"
+  },
+  {
+    "code": "N0001231",
+    "company": "FedEx",
+    "discount": "10%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "System-wide.",
+    "verified": "2025-12"
+  },
+  {
+    "code": "0560054725",
+    "company": "Team USA",
+    "discount": "10-15%",
+    "region": "US",
+    "idRequired": "No",
+    "note": "Olympic team.",
+    "verified": "2025-12"
+  },
+  {
+    "code": "N9880578",
+    "company": "Blackstone",
+    "discount": "12-18%",
+    "region": "US",
+    "idRequired": "Rarely",
+    "note": "Hilton/Conrad/GardenInn/Waldorf.",
+    "verified": "2025-11"
+  },
+  {
+    "code": "0901452",
+    "company": "IBM (US)",
+    "discount": "10-15%",
+    "region": "US",
+    "idRequired": "Sometimes",
+    "note": "US only.",
+    "verified": "2025-10"
+  },
+  {
+    "code": "001368083",
+    "company": "IBM (Intl)",
+    "discount": "10-15%",
+    "region": "International",
+    "idRequired": "Sometimes",
+    "note": "Outside US.",
+    "verified": "2025-10"
+  },
+  {
+    "code": "9122532",
+    "company": "HP",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "0001398",
+    "company": "GE",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "0072799100",
+    "company": "GE (alt)",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "Alternate GE code.",
+    "verified": "2025-10"
+  },
+  {
+    "code": "402371223",
+    "company": "Akzo Nobel",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "355019365",
+    "company": "Volvo",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Rarely",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "10850857",
+    "company": "Accenture",
+    "discount": "10-18%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "Also N0156333.",
+    "verified": "2025-12"
+  },
+  {
+    "code": "0002544270",
+    "company": "Oracle",
+    "discount": "10-15%",
+    "region": "Global",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-11"
+  },
+  {
+    "code": "8122",
+    "company": "Ford",
+    "discount": "10-15%",
+    "region": "NA",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-10"
+  },
+  {
+    "code": "N0710081",
+    "company": "Bank of America",
+    "discount": "10-15%",
+    "region": "NA",
+    "idRequired": "Sometimes",
+    "note": "",
+    "verified": "2025-11"
+  },
+  {
+    "code": "AAA",
+    "company": "AAA",
+    "discount": "5-15%",
+    "region": "NA",
+    "idRequired": "AAA card",
+    "note": "Universal.",
+    "verified": "2026-02"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "brand": "Hertz",
+    "company": "Siemens US",
+    "businessCode": "2117694",
+    "leisureCode": "16762",
+    "note": "Leisure: no insurance"
+  },
+  {
+    "brand": "Avis",
+    "company": "Siemens US",
+    "businessCode": "A372100",
+    "leisureCode": "A372190",
+    "note": ""
+  },
+  {
+    "brand": "Sixt",
+    "company": "Siemens US",
+    "businessCode": "9797404",
+    "leisureCode": "19211696",
+    "note": ""
+  },
+  {
+    "brand": "Hertz",
+    "company": "Siemens CA",
+    "businessCode": "25046",
+    "leisureCode": "93678",
+    "note": "Canada"
+  },
+  {
+    "brand": "Avis",
+    "company": "Siemens CA",
+    "businessCode": "A372104",
+    "leisureCode": "A372180",
+    "note": "Canada"
+  }
+]
