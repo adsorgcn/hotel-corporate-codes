@@ -1,0 +1,39 @@
+{
+  "name": "@adsorgcn/hotel-corporate-codes",
+  "version": "1.0.0",
+  "description": "Open-source hotel corporate codes database — 123+ verified discount codes for Marriott, Hilton, IHG, Hyatt & more",
+  "main": "index.js",
+  "keywords": [
+    "hotel",
+    "corporate-codes",
+    "marriott",
+    "hilton",
+    "ihg",
+    "hyatt",
+    "wyndham",
+    "hotel-discount",
+    "corporate-rate",
+    "travel-hacking",
+    "business-travel",
+    "hotel-codes",
+    "travel",
+    "bonvoy",
+    "hilton-honors"
+  ],
+  "author": "HotelCorporateCodes.com",
+  "license": "MIT",
+  "homepage": "https://hotelcorporatecodes.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adsorgcn/hotel-corporate-codes"
+  },
+  "bugs": {
+    "url": "https://github.com/adsorgcn/hotel-corporate-codes/issues"
+  },
+  "files": [
+    "data/",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
