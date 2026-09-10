@@ -1,0 +1,119 @@
+{
+  "changes": [
+    {
+      "after": {
+        "brand": "ihg",
+        "claims": [
+          {
+            "evidence_ids": [
+              "e_2a293a0d806d4d76eeff44f8"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "code",
+            "value": "954984999"
+          },
+          {
+            "evidence_ids": [
+              "e_2a293a0d806d4d76eeff44f8"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "company",
+            "value": "Global E"
+          },
+          {
+            "evidence_ids": [
+              "e_2a293a0d806d4d76eeff44f8"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "scope",
+            "value": "Published on the Crowne Plaza Atlanta Perimeter at Ravinia Global E page; the page also directs users to the code for other IHG destinations. Individual hotel participation is unspecified."
+          }
+        ],
+        "code": "954984999",
+        "company": "Global E",
+        "content_changed_at": "2026-09-10T04:18:52Z",
+        "eligibility": null,
+        "evidence_ids": [
+          "e_2a293a0d806d4d76eeff44f8"
+        ],
+        "evidence_level": "source_confirmed",
+        "first_seen_at": "2026-09-10T04:18:52Z",
+        "lifecycle_status": "listed",
+        "record_id": "r_2b81e8f048be9049fb781c3c",
+        "scope": "Published on the Crowne Plaza Atlanta Perimeter at Ravinia Global E page; the page also directs users to the code for other IHG destinations. Individual hotel participation is unspecified.",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "before": null,
+      "kind": "added",
+      "record_id": "r_2b81e8f048be9049fb781c3c"
+    },
+    {
+      "after": {
+        "brand": "wyndham",
+        "claims": [
+          {
+            "evidence_ids": [
+              "e_204dab827dce1fd2c71e96dc"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "code",
+            "value": "8000002970"
+          },
+          {
+            "evidence_ids": [
+              "e_204dab827dce1fd2c71e96dc"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "company",
+            "value": "Passport Unlimited"
+          },
+          {
+            "evidence_ids": [
+              "e_204dab827dce1fd2c71e96dc"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "discount",
+            "value": "Up to 20% off the property's Standard Rate, excluding taxes and additional fees; no fixed saving is guaranteed."
+          },
+          {
+            "evidence_ids": [
+              "e_204dab827dce1fd2c71e96dc"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "eligibility",
+            "value": "Passport members; mention membership when reserving and present proof at check-in. Advance reservation through the offer page or designated reservation number is required; direct calls to the hotel do not qualify."
+          },
+          {
+            "evidence_ids": [
+              "e_204dab827dce1fd2c71e96dc"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "scope",
+            "value": "Participating Wyndham hotels, subject to availability, blackout dates and restrictions. Cannot be combined with other discounts, offers, group rates or special promotions."
+          }
+        ],
+        "code": "8000002970",
+        "company": "Passport Unlimited",
+        "content_changed_at": "2026-09-10T04:18:52Z",
+        "eligibility": "Passport members; mention membership when reserving and present proof at check-in. Advance reservation through the offer page or designated reservation number is required; direct calls to the hotel do not qualify.",
+        "evidence_ids": [
+          "e_204dab827dce1fd2c71e96dc"
+        ],
+        "evidence_level": "source_confirmed",
+        "first_seen_at": "2026-09-10T04:18:52Z",
+        "lifecycle_status": "listed",
+        "record_id": "r_d572e7b6172509acbb92f983",
+        "scope": "Participating Wyndham hotels, subject to availability, blackout dates and restrictions. Cannot be combined with other discounts, offers, group rates or special promotions.",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "before": null,
+      "kind": "added",
+      "record_id": "r_d572e7b6172509acbb92f983"
+    }
+  ],
+  "data_version": "1.0.1",
+  "parent_version": "1.0.0",
+  "schema_version": 1
+}

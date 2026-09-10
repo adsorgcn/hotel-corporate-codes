@@ -1,0 +1,14 @@
+{
+  "attachment_hashes": {
+    "SHA256SUMS": "4a8787b99a468587c29edc83293213a3b2e492009904d1d2d5b6f4751e0d9017",
+    "changes-1.0.1.json": "fc83ab280f872c4ebb70250a16324da0491ec99ad6435fd8e5e478391e3ad06d",
+    "hotel-data-1.0.1.json": "ac202303f4a5a3e66128b3a552dbd5c274dacb7cd1bdb1ddc131503d5217afde"
+  },
+  "data_version": "1.0.1",
+  "parent_commit": "ec9c03f25b7356d6fc9c5473db53fa671abf7abc",
+  "parent_version": "1.0.0",
+  "prepared_at": "2026-09-10T04:18:52Z",
+  "schema_version": 1,
+  "semantic_hash": "c843a27a8360955356b6576f5f090135051cd216fa8c3bd1f013f8cf81a56a51",
+  "transaction_id": "a0ae53d9-c505-46dc-ab9d-236bf1e88828"
+}
