@@ -1,0 +1,71 @@
+{
+  "changes": [
+    {
+      "after": {
+        "brand": "wyndham",
+        "claims": [
+          {
+            "evidence_ids": [
+              "e_67f486eecb823ea42a1d9b39"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "code",
+            "value": "8000000082"
+          },
+          {
+            "evidence_ids": [
+              "e_67f486eecb823ea42a1d9b39"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "company",
+            "value": "Access Development"
+          },
+          {
+            "evidence_ids": [
+              "e_67f486eecb823ea42a1d9b39"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "discount",
+            "value": "Up to 20% off the property's Standard Rate, excluding taxes, resorts/service fees, incidentals, gratuities, or additional per room, per night charges; no fixed saving is guaranteed."
+          },
+          {
+            "evidence_ids": [
+              "e_67f486eecb823ea42a1d9b39"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "eligibility",
+            "value": "Access Development members; discount automatically applied when booking through this page, or by calling 877-670-7088 and giving corporate code 8000000082. Proof of membership must be presented upon check-in."
+          },
+          {
+            "evidence_ids": [
+              "e_67f486eecb823ea42a1d9b39"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "scope",
+            "value": "Participating hotels, subject to availability; blackout dates and certain restrictions may apply. Must be booked through this website or the designated phone number; not valid if hotel is called directly. Cannot be combined with any other discounts, offers, group rates, or special promotions."
+          }
+        ],
+        "code": "8000000082",
+        "company": "Access Development",
+        "content_changed_at": "2026-09-12T21:02:28Z",
+        "eligibility": "Access Development members; discount automatically applied when booking through this page, or by calling 877-670-7088 and giving corporate code 8000000082. Proof of membership must be presented upon check-in.",
+        "evidence_ids": [
+          "e_67f486eecb823ea42a1d9b39"
+        ],
+        "evidence_level": "source_confirmed",
+        "first_seen_at": "2026-09-12T21:02:28Z",
+        "lifecycle_status": "listed",
+        "record_id": "r_1d049f97eca9966846800623",
+        "scope": "Participating hotels, subject to availability; blackout dates and certain restrictions may apply. Must be booked through this website or the designated phone number; not valid if hotel is called directly. Cannot be combined with any other discounts, offers, group rates, or special promotions.",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "before": null,
+      "kind": "added",
+      "record_id": "r_1d049f97eca9966846800623"
+    }
+  ],
+  "data_version": "1.0.3",
+  "parent_version": "1.0.2",
+  "schema_version": 1
+}

@@ -1,14 +1,14 @@
 {
   "attachment_hashes": {
-    "SHA256SUMS": "45338bddbd4e3dcb3134cb283f1a42d0dc49429742b97c2c01a93397df060f9a",
-    "changes-1.0.2.json": "39da96f0b702958ea8e01acc812cad0ef0f9fa4c0046e68b782c340116f04efb",
-    "hotel-data-1.0.2.json": "c4561775ceeb94d4458235bea70d5530f9e67eaa6532685dcf3d6d257064bac4"
+    "SHA256SUMS": "acd9fbca02da10b90b3aab959dc77517725bf2c8985387467d1f07e8d72c8700",
+    "changes-1.0.3.json": "a488c38c64c954760d927e434ada7f956549772cb4266f0b0e2f1fca2a691677",
+    "hotel-data-1.0.3.json": "a40e0b67f2ff78e7ef1cb07244a746ab2c2652b074d26cc2b68b4709abf872b5"
   },
-  "data_version": "1.0.2",
-  "parent_commit": "1d9fc3a34b8e27326dcd1bc0e9f9763cadda41e4",
-  "parent_version": "1.0.1",
-  "prepared_at": "2026-09-12T01:08:49Z",
+  "data_version": "1.0.3",
+  "parent_commit": "2d7ea81fdd8d98c4f9f019a95993dcffdbf760c2",
+  "parent_version": "1.0.2",
+  "prepared_at": "2026-09-12T21:02:28Z",
   "schema_version": 1,
-  "semantic_hash": "5be80cc537f07b1acd4e7b32d34b1735ec66882734265a5e9f19079c03d3f65e",
-  "transaction_id": "ce0abc2c-3463-4e4f-9968-17d2a1827a5e"
+  "semantic_hash": "74a518b84a215316aefde280adbe18dcba2c7811a4b62ca1966e54f978af3794",
+  "transaction_id": "68948ff7b6f0bfaa55e4204d9cd1a58e"
 }
