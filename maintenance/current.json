@@ -1,5 +1,5 @@
 {
-  "data_version": "1.0.1",
+  "data_version": "1.0.2",
   "evidence": [
     {
       "content_sha256": "08f7b141e5cd116493b163d0333c6977b43c0f6d7159eb6f5748088f31d5fa70",
@@ -452,6 +452,27 @@
       ]
     },
     {
+      "content_sha256": "ed486c1358a700910c969759d13e8083b8ce354b0b186cf9807d1bdb0cad63a2",
+      "evidence_id": "e_0b80ce560b4a7d525f7f7b94",
+      "independence_group": null,
+      "independence_review": null,
+      "observed_at": "2026-09-12T01:08:47Z",
+      "published_at": null,
+      "publisher": "The Auto Club Group (AAA)",
+      "short_excerpt": "Proof of AAA membership must be provided upon request at check-in",
+      "source_type": "agreement_issuer",
+      "source_url": "https://www.acg.aaa.com/travel/hotels/choice-hotels.html",
+      "supported_claims": [
+        {
+          "field": "eligibility",
+          "value": "For the AAA/CAA rate described by The Auto Club Group, membership must be in good standing at reservation and check-in. Proof of AAA membership must be supplied if requested at check-in; the hotel may cancel or reprice the reservation to a non-AAA rate if it is not supplied."
+        }
+      ],
+      "supported_fields": [
+        "eligibility"
+      ]
+    },
+    {
       "content_sha256": "f350eaf28c77fc5798962fcbabf48d9d907afd0efc3fb94531d3caeb35d9aa71",
       "evidence_id": "e_0efd32658d3b9ca0c8a954e9",
       "observed_at": "2026-09-10T04:11:47Z",
@@ -852,11 +873,11 @@
       ]
     },
     {
-      "content_sha256": "58a6d89cb5d4edc6991d5a7fd7349e1e6850fc8813e28acc0c8f3df634cb3cda",
+      "content_sha256": "8ce1405a502aa83f88a5355a644e43d460615f9ac5c41bae674f9e39a9388321",
       "evidence_id": "e_204dab827dce1fd2c71e96dc",
       "independence_group": null,
       "independence_review": null,
-      "observed_at": "2026-09-10T04:18:49Z",
+      "observed_at": "2026-09-12T01:08:38Z",
       "published_at": null,
       "publisher": "Wyndham Hotels & Resorts",
       "short_excerpt": "Proof of membership must be presented upon check-in.",
@@ -993,11 +1014,11 @@
       ]
     },
     {
-      "content_sha256": "343fbb192289b5744d30791dfe80b98e0cf0831eb908445971980f80b07ccb2c",
+      "content_sha256": "7ac6fc42e850e62499959e0888ae3060338ff08274cf856cb323c0fdf0f1820d",
       "evidence_id": "e_2a293a0d806d4d76eeff44f8",
       "independence_group": null,
       "independence_review": null,
-      "observed_at": "2026-09-10T04:18:46Z",
+      "observed_at": "2026-09-12T01:08:35Z",
       "published_at": null,
       "publisher": "IHG Hotels & Resorts",
       "short_excerpt": "Corporate ID: 954984999",
@@ -13848,6 +13869,14 @@
       "claims": [
         {
           "evidence_ids": [
+            "e_0b80ce560b4a7d525f7f7b94"
+          ],
+          "evidence_level": "source_confirmed",
+          "field": "eligibility",
+          "value": "For the AAA/CAA rate described by The Auto Club Group, membership must be in good standing at reservation and check-in. Proof of AAA membership must be supplied if requested at check-in; the hotel may cancel or reprice the reservation to a non-AAA rate if it is not supplied."
+        },
+        {
+          "evidence_ids": [
             "e_55e0d49cfc05a68fba0133d4"
           ],
           "evidence_level": "legacy_unverified",
@@ -13905,12 +13934,13 @@
       ],
       "code": "AAA",
       "company": "AAA",
-      "content_changed_at": "2026-09-10T04:11:47Z",
-      "eligibility": null,
+      "content_changed_at": "2026-09-12T01:08:48Z",
+      "eligibility": "For the AAA/CAA rate described by The Auto Club Group, membership must be in good standing at reservation and check-in. Proof of AAA membership must be supplied if requested at check-in; the hotel may cancel or reprice the reservation to a non-AAA rate if it is not supplied.",
       "evidence_ids": [
+        "e_0b80ce560b4a7d525f7f7b94",
         "e_55e0d49cfc05a68fba0133d4"
       ],
-      "evidence_level": "legacy_unverified",
+      "evidence_level": "source_confirmed",
       "first_seen_at": "2026-09-10T04:11:47Z",
       "lifecycle_status": "listed",
       "record_id": "r_d210630d7df0580d86b2a050",

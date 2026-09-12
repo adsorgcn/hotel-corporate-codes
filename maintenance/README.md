@@ -1,8 +1,8 @@
 # Hotel data maintenance
 
-Latest prepared data: data-v1.0.1. Downstream consumers must use a published, checksum-verified Release; a branch manifest may still be pending.
+Latest prepared data: data-v1.0.2. Downstream consumers must use a published, checksum-verified Release; a branch manifest may still be pending.
 
-[Download data releases](https://github.com/adsorgcn/hotel-corporate-codes/releases/tag/data-v1.0.1)
+[Download data releases](https://github.com/adsorgcn/hotel-corporate-codes/releases/tag/data-v1.0.2)
 
 Schema version 1 uses string codes (leading zeros preserved), stable records and field-specific evidence. `legacy_unverified` means historical import only; `reported` requires two independently originated, dated reports; `source_confirmed` identifies claims supported by the brand or agreement issuer; `booking_observed` is reserved for contextual booking observations and is not collected by this workflow.
 

@@ -1,0 +1,170 @@
+{
+  "changes": [
+    {
+      "after": {
+        "brand": "choice",
+        "claims": [
+          {
+            "evidence_ids": [
+              "e_0b80ce560b4a7d525f7f7b94"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "eligibility",
+            "value": "For the AAA/CAA rate described by The Auto Club Group, membership must be in good standing at reservation and check-in. Proof of AAA membership must be supplied if requested at check-in; the hotel may cancel or reprice the reservation to a non-AAA rate if it is not supplied."
+          },
+          {
+            "evidence_ids": [
+              "e_55e0d49cfc05a68fba0133d4"
+            ],
+            "evidence_level": "legacy_unverified",
+            "field": "legacy.code",
+            "value": "AAA"
+          },
+          {
+            "evidence_ids": [
+              "e_55e0d49cfc05a68fba0133d4"
+            ],
+            "evidence_level": "legacy_unverified",
+            "field": "legacy.company",
+            "value": "AAA"
+          },
+          {
+            "evidence_ids": [
+              "e_55e0d49cfc05a68fba0133d4"
+            ],
+            "evidence_level": "legacy_unverified",
+            "field": "legacy.discount",
+            "value": "5-10%"
+          },
+          {
+            "evidence_ids": [
+              "e_55e0d49cfc05a68fba0133d4"
+            ],
+            "evidence_level": "legacy_unverified",
+            "field": "legacy.idRequired",
+            "value": "AAA card"
+          },
+          {
+            "evidence_ids": [
+              "e_55e0d49cfc05a68fba0133d4"
+            ],
+            "evidence_level": "legacy_unverified",
+            "field": "legacy.note",
+            "value": ""
+          },
+          {
+            "evidence_ids": [
+              "e_55e0d49cfc05a68fba0133d4"
+            ],
+            "evidence_level": "legacy_unverified",
+            "field": "legacy.region",
+            "value": "NA"
+          },
+          {
+            "evidence_ids": [
+              "e_55e0d49cfc05a68fba0133d4"
+            ],
+            "evidence_level": "legacy_unverified",
+            "field": "legacy.verified",
+            "value": "2026-01"
+          }
+        ],
+        "code": "AAA",
+        "company": "AAA",
+        "content_changed_at": "2026-09-12T01:08:48Z",
+        "eligibility": "For the AAA/CAA rate described by The Auto Club Group, membership must be in good standing at reservation and check-in. Proof of AAA membership must be supplied if requested at check-in; the hotel may cancel or reprice the reservation to a non-AAA rate if it is not supplied.",
+        "evidence_ids": [
+          "e_0b80ce560b4a7d525f7f7b94",
+          "e_55e0d49cfc05a68fba0133d4"
+        ],
+        "evidence_level": "source_confirmed",
+        "first_seen_at": "2026-09-10T04:11:47Z",
+        "lifecycle_status": "listed",
+        "record_id": "r_d210630d7df0580d86b2a050",
+        "scope": null,
+        "valid_from": null,
+        "valid_until": null
+      },
+      "before": {
+        "brand": "choice",
+        "claims": [
+          {
+            "evidence_ids": [
+              "e_55e0d49cfc05a68fba0133d4"
+            ],
+            "evidence_level": "legacy_unverified",
+            "field": "legacy.code",
+            "value": "AAA"
+          },
+          {
+            "evidence_ids": [
+              "e_55e0d49cfc05a68fba0133d4"
+            ],
+            "evidence_level": "legacy_unverified",
+            "field": "legacy.company",
+            "value": "AAA"
+          },
+          {
+            "evidence_ids": [
+              "e_55e0d49cfc05a68fba0133d4"
+            ],
+            "evidence_level": "legacy_unverified",
+            "field": "legacy.discount",
+            "value": "5-10%"
+          },
+          {
+            "evidence_ids": [
+              "e_55e0d49cfc05a68fba0133d4"
+            ],
+            "evidence_level": "legacy_unverified",
+            "field": "legacy.idRequired",
+            "value": "AAA card"
+          },
+          {
+            "evidence_ids": [
+              "e_55e0d49cfc05a68fba0133d4"
+            ],
+            "evidence_level": "legacy_unverified",
+            "field": "legacy.note",
+            "value": ""
+          },
+          {
+            "evidence_ids": [
+              "e_55e0d49cfc05a68fba0133d4"
+            ],
+            "evidence_level": "legacy_unverified",
+            "field": "legacy.region",
+            "value": "NA"
+          },
+          {
+            "evidence_ids": [
+              "e_55e0d49cfc05a68fba0133d4"
+            ],
+            "evidence_level": "legacy_unverified",
+            "field": "legacy.verified",
+            "value": "2026-01"
+          }
+        ],
+        "code": "AAA",
+        "company": "AAA",
+        "content_changed_at": "2026-09-10T04:11:47Z",
+        "eligibility": null,
+        "evidence_ids": [
+          "e_55e0d49cfc05a68fba0133d4"
+        ],
+        "evidence_level": "legacy_unverified",
+        "first_seen_at": "2026-09-10T04:11:47Z",
+        "lifecycle_status": "listed",
+        "record_id": "r_d210630d7df0580d86b2a050",
+        "scope": null,
+        "valid_from": null,
+        "valid_until": null
+      },
+      "kind": "updated",
+      "record_id": "r_d210630d7df0580d86b2a050"
+    }
+  ],
+  "data_version": "1.0.2",
+  "parent_version": "1.0.1",
+  "schema_version": 1
+}
