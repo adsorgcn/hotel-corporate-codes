@@ -1,0 +1,71 @@
+{
+  "changes": [
+    {
+      "after": {
+        "brand": "wyndham",
+        "claims": [
+          {
+            "evidence_ids": [
+              "e_2faf30ca71396f0e49d1cb3f"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "code",
+            "value": "1000089912"
+          },
+          {
+            "evidence_ids": [
+              "e_2faf30ca71396f0e49d1cb3f"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "company",
+            "value": "OfferFit"
+          },
+          {
+            "evidence_ids": [
+              "e_2faf30ca71396f0e49d1cb3f"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "discount",
+            "value": "20% off the Best Available Rate, excluding taxes, resort/service fees, incidentals, gratuities, or additional per room, per night charges that may be imposed."
+          },
+          {
+            "evidence_ids": [
+              "e_2faf30ca71396f0e49d1cb3f"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "eligibility",
+            "value": "Available to employees of OfferFit. Reservations must be made in advance and guaranteed with a valid credit card. New bookings only; not applicable to group bookings."
+          },
+          {
+            "evidence_ids": [
+              "e_2faf30ca71396f0e49d1cb3f"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "scope",
+            "value": "Participating Wyndham Hotels & Resorts hotels; must be booked on a Direct Booking Channel defined as (i) www.wyndhamhotels.com/wyndham-rewards, wyndhamhotels.com or any of the official Hotels by Wyndham brand websites; (ii) the official toll-free reservation number of Wyndham Rewards or any of the Hotels by Wyndham brands by requesting the Offerfit Friends & Family Rate and providing Corporate Code 1000089912; or (iii) on the Wyndham Hotels & Resorts App. May not be available if the hotel is called directly. Blackout dates, room type exclusions, and additional restrictions may apply and will vary by individual hotel. Offer availability limited to participating hotels and is subject to availability. Not combinable with any other offer or discount other than applicable registration-based, bonus point promotions."
+          }
+        ],
+        "code": "1000089912",
+        "company": "OfferFit",
+        "content_changed_at": "2026-09-23T01:02:16Z",
+        "eligibility": "Available to employees of OfferFit. Reservations must be made in advance and guaranteed with a valid credit card. New bookings only; not applicable to group bookings.",
+        "evidence_ids": [
+          "e_2faf30ca71396f0e49d1cb3f"
+        ],
+        "evidence_level": "source_confirmed",
+        "first_seen_at": "2026-09-23T01:02:16Z",
+        "lifecycle_status": "listed",
+        "record_id": "r_f8cdc0596fa8035d15b2139c",
+        "scope": "Participating Wyndham Hotels & Resorts hotels; must be booked on a Direct Booking Channel defined as (i) www.wyndhamhotels.com/wyndham-rewards, wyndhamhotels.com or any of the official Hotels by Wyndham brand websites; (ii) the official toll-free reservation number of Wyndham Rewards or any of the Hotels by Wyndham brands by requesting the Offerfit Friends & Family Rate and providing Corporate Code 1000089912; or (iii) on the Wyndham Hotels & Resorts App. May not be available if the hotel is called directly. Blackout dates, room type exclusions, and additional restrictions may apply and will vary by individual hotel. Offer availability limited to participating hotels and is subject to availability. Not combinable with any other offer or discount other than applicable registration-based, bonus point promotions.",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "before": null,
+      "kind": "added",
+      "record_id": "r_f8cdc0596fa8035d15b2139c"
+    }
+  ],
+  "data_version": "1.0.4",
+  "parent_version": "1.0.3",
+  "schema_version": 1
+}
