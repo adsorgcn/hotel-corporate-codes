@@ -1,0 +1,106 @@
+{
+  "changes": [
+    {
+      "after": {
+        "brand": "ihg",
+        "claims": [
+          {
+            "evidence_ids": [
+              "e_2a293a0d806d4d76eeff44f8"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "code",
+            "value": "954984999"
+          },
+          {
+            "evidence_ids": [
+              "e_2a293a0d806d4d76eeff44f8"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "company",
+            "value": "Global E"
+          },
+          {
+            "evidence_ids": [
+              "e_05c0b0bb83674062b5e6554d"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "discount",
+            "value": "The Global E EDGE rate may be lower but does not include the additional benefits."
+          },
+          {
+            "evidence_ids": [
+              "e_05c0b0bb83674062b5e6554d"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "scope",
+            "value": "Corporate ID 954984999 is published on the Crowne Plaza Atlanta Perimeter at Ravinia Global E page; the page states it can be used to get discounts at other IHG hotels."
+          }
+        ],
+        "code": "954984999",
+        "company": "Global E",
+        "content_changed_at": "2026-09-24T01:01:59Z",
+        "eligibility": null,
+        "evidence_ids": [
+          "e_05c0b0bb83674062b5e6554d",
+          "e_2a293a0d806d4d76eeff44f8"
+        ],
+        "evidence_level": "source_confirmed",
+        "first_seen_at": "2026-09-10T04:18:52Z",
+        "lifecycle_status": "listed",
+        "record_id": "r_2b81e8f048be9049fb781c3c",
+        "scope": "Corporate ID 954984999 is published on the Crowne Plaza Atlanta Perimeter at Ravinia Global E page; the page states it can be used to get discounts at other IHG hotels.",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "before": {
+        "brand": "ihg",
+        "claims": [
+          {
+            "evidence_ids": [
+              "e_2a293a0d806d4d76eeff44f8"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "code",
+            "value": "954984999"
+          },
+          {
+            "evidence_ids": [
+              "e_2a293a0d806d4d76eeff44f8"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "company",
+            "value": "Global E"
+          },
+          {
+            "evidence_ids": [
+              "e_2a293a0d806d4d76eeff44f8"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "scope",
+            "value": "Published on the Crowne Plaza Atlanta Perimeter at Ravinia Global E page; the page also directs users to the code for other IHG destinations. Individual hotel participation is unspecified."
+          }
+        ],
+        "code": "954984999",
+        "company": "Global E",
+        "content_changed_at": "2026-09-10T04:18:52Z",
+        "eligibility": null,
+        "evidence_ids": [
+          "e_2a293a0d806d4d76eeff44f8"
+        ],
+        "evidence_level": "source_confirmed",
+        "first_seen_at": "2026-09-10T04:18:52Z",
+        "lifecycle_status": "listed",
+        "record_id": "r_2b81e8f048be9049fb781c3c",
+        "scope": "Published on the Crowne Plaza Atlanta Perimeter at Ravinia Global E page; the page also directs users to the code for other IHG destinations. Individual hotel participation is unspecified.",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "kind": "updated",
+      "record_id": "r_2b81e8f048be9049fb781c3c"
+    }
+  ],
+  "data_version": "1.0.5",
+  "parent_version": "1.0.4",
+  "schema_version": 1
+}
