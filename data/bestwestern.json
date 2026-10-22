@@ -16,5 +16,95 @@
     "idRequired": "AAA card",
     "note": "Strong partnership.",
     "verified": "2026-02"
+  },
+  {
+    "code": "1333080",
+    "company": "Accenture",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/bestwestern-accenture"
+  },
+  {
+    "code": "1402540",
+    "company": "Bank of America",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/bestwestern-bank-of-america"
+  },
+  {
+    "code": "1476170",
+    "company": "Best Business Worldwide",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/bestwestern-best-business-worldwide"
+  },
+  {
+    "code": "1388930",
+    "company": "California IT",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/bestwestern-california-it"
+  },
+  {
+    "code": "1374180",
+    "company": "Deloitte",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/bestwestern-deloitte"
+  },
+  {
+    "code": "1353080",
+    "company": "FedEx",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/bestwestern-fedex"
+  },
+  {
+    "code": "101841",
+    "company": "Ford",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/bestwestern-ford"
+  },
+  {
+    "code": "322510",
+    "company": "GE",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/bestwestern-ge"
+  },
+  {
+    "code": "1402610",
+    "company": "Joe's House",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/bestwestern-joes-house"
   }
 ]

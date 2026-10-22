@@ -214,5 +214,55 @@
     "idRequired": "AAA card",
     "note": "",
     "verified": "2026-01"
+  },
+  {
+    "code": "100862437",
+    "company": "Ace Hardware",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/ihg-ace-hardware"
+  },
+  {
+    "code": "ASU",
+    "company": "Arizona State University",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/ihg-arizona-state-university"
+  },
+  {
+    "code": "251321",
+    "company": "Bayer",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/ihg-bayer"
+  },
+  {
+    "code": "262552",
+    "company": "ConocoPhillips",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/ihg-conocophillips"
+  },
+  {
+    "code": "954984999",
+    "company": "Global E",
+    "discount": "Varies (Global E corporate rate)",
+    "region": "US",
+    "idRequired": null,
+    "note": "Published on the Crowne Plaza Atlanta Perimeter at Ravinia Global E page, which says the Corporate ID can also be used for discounts at other IHG hotels.",
+    "verified": "2026-09",
+    "source": "https://www.ihg.com/crowneplaza/hotels/pl/pl/atlanta/atlcp/hoteldetail/global-e"
   }
 ]

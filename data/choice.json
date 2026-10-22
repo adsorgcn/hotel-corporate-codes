@@ -16,5 +16,45 @@
     "idRequired": "AAA card",
     "note": "",
     "verified": "2026-01"
+  },
+  {
+    "code": "845160",
+    "company": "ABN",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/choice-abn"
+  },
+  {
+    "code": "00845160",
+    "company": "Allied Business Network",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/choice-allied-business-network"
+  },
+  {
+    "code": "76514",
+    "company": "Harvard",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/choice-harvard"
+  },
+  {
+    "code": "318810",
+    "company": "Yale University",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/choice-yale-university"
   }
 ]

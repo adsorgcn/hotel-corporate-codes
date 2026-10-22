@@ -25,5 +25,135 @@
     "idRequired": "AAA card",
     "note": "",
     "verified": "2026-01"
+  },
+  {
+    "code": "8000000066",
+    "company": "ABN",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/wyndham-abn"
+  },
+  {
+    "code": "1000007598",
+    "company": "AIChE",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/wyndham-aiche"
+  },
+  {
+    "code": "1000010014",
+    "company": "ASCP",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/wyndham-ascp"
+  },
+  {
+    "code": "1000008537",
+    "company": "Business Advantage Plus",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/wyndham-business-advantage-plus"
+  },
+  {
+    "code": "803277",
+    "company": "Century 21",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/wyndham-century-21"
+  },
+  {
+    "code": "1000008946",
+    "company": "Civil Air Patrol",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/wyndham-civil-air-patrol"
+  },
+  {
+    "code": "1000000265",
+    "company": "EC Purchasing",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/wyndham-ec-purchasing"
+  },
+  {
+    "code": "1000007604",
+    "company": "MTA",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/wyndham-mta"
+  },
+  {
+    "code": "1000007844",
+    "company": "NYSUT",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/wyndham-nysut"
+  },
+  {
+    "code": "55067752",
+    "company": "SmithBucklin",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/wyndham-smithbucklin"
+  },
+  {
+    "code": "8000000082",
+    "company": "Access Development",
+    "discount": "Up to 20% off Standard Rate",
+    "region": "US",
+    "idRequired": "Membership proof at check-in",
+    "note": "Participating hotels only; book through the Wyndham offer page or 877-670-7088 (not by calling the hotel directly), not combinable with other offers.",
+    "verified": "2026-09",
+    "source": "https://www.wyndhamhotels.com/hotel-deals/access"
+  },
+  {
+    "code": "1000089912",
+    "company": "OfferFit",
+    "discount": "20% off Best Available Rate",
+    "region": "US",
+    "idRequired": "OfferFit employees",
+    "note": "Participating Wyndham hotels via wyndhamhotels.com, the Wyndham app or the brand reservation line (ask for the Offerfit Friends & Family Rate); blackout dates and exclusions vary by hotel.",
+    "verified": "2026-09",
+    "source": "https://www.wyndhamhotels.com/hotel-deals/offerfit-friends-and-family"
+  },
+  {
+    "code": "8000002970",
+    "company": "Passport Unlimited",
+    "discount": "Up to 20% off Standard Rate",
+    "region": "US",
+    "idRequired": "Membership proof at check-in",
+    "note": "Participating Wyndham hotels, subject to availability and blackout dates; book through the offer page or reservation line, not combinable with other offers.",
+    "verified": "2026-09",
+    "source": "https://www.wyndhamhotels.com/hotel-deals/passport"
   }
 ]

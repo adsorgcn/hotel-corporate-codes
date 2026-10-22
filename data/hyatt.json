@@ -79,5 +79,95 @@
     "idRequired": "AAA card",
     "note": "",
     "verified": "2026-01"
+  },
+  {
+    "code": "15985",
+    "company": "AAA (alt 2)",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hyatt-aaa-alt-2"
+  },
+  {
+    "code": "17500",
+    "company": "AAA (alt)",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hyatt-aaa-alt"
+  },
+  {
+    "code": "27450",
+    "company": "AON",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hyatt-aon"
+  },
+  {
+    "code": "79103",
+    "company": "Bank of America",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hyatt-bank-of-america"
+  },
+  {
+    "code": "86458",
+    "company": "BMW",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hyatt-bmw"
+  },
+  {
+    "code": "97920",
+    "company": "BNP Paribas",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hyatt-bnp-paribas"
+  },
+  {
+    "code": "88762",
+    "company": "BP",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hyatt-bp"
+  },
+  {
+    "code": "13365",
+    "company": "Cisco",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hyatt-cisco"
+  },
+  {
+    "code": "68083",
+    "company": "Company TVL Rate",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hyatt-company-tvl-rate"
   }
 ]

@@ -169,5 +169,325 @@
     "idRequired": "AAA card",
     "note": "Universal.",
     "verified": "2026-02"
+  },
+  {
+    "code": "N0001542",
+    "company": "3M",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-3m"
+  },
+  {
+    "code": "N0156333",
+    "company": "Accenture (alt)",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-accenture-alt"
+  },
+  {
+    "code": "N0000046",
+    "company": "AT&T",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-att"
+  },
+  {
+    "code": "N0001125",
+    "company": "BASF",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-basf"
+  },
+  {
+    "code": "N0437015",
+    "company": "Berkshire Hathaway",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-berkshire-hathaway"
+  },
+  {
+    "code": "N2728493",
+    "company": "BP",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-bp"
+  },
+  {
+    "code": "N0990552",
+    "company": "CapGemini",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-capgemini"
+  },
+  {
+    "code": "N0001420",
+    "company": "Coca-Cola",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-coca-cola"
+  },
+  {
+    "code": "N7654328",
+    "company": "Dell",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-dell"
+  },
+  {
+    "code": "601560",
+    "company": "Deloitte",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-deloitte"
+  },
+  {
+    "code": "N0997136",
+    "company": "Disney",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-disney"
+  },
+  {
+    "code": "N0990214",
+    "company": "Dow Chemical",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-dow-chemical"
+  },
+  {
+    "code": "D600198360",
+    "company": "FFEIE",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-ffeie"
+  },
+  {
+    "code": "N2674000",
+    "company": "Fiat Chrysler",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-fiat-chrysler"
+  },
+  {
+    "code": "N0900266",
+    "company": "Ford (alt)",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-ford-alt"
+  },
+  {
+    "code": "N0903395",
+    "company": "General Motors",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-general-motors"
+  },
+  {
+    "code": "N3846652",
+    "company": "Harley-Davidson",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-harley-davidson"
+  },
+  {
+    "code": "N0794705",
+    "company": "Home Depot",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-home-depot"
+  },
+  {
+    "code": "N2666284",
+    "company": "IBM (alt)",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-ibm-alt"
+  },
+  {
+    "code": "N0381437",
+    "company": "JC Penney",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-jc-penney"
+  },
+  {
+    "code": "N0990761",
+    "company": "Masco",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-masco"
+  },
+  {
+    "code": "N1360871",
+    "company": "McDonald's",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-mcdonalds"
+  },
+  {
+    "code": "N9890367",
+    "company": "McKesson",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-mckesson"
+  },
+  {
+    "code": "N2741095",
+    "company": "McKinsey",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-mckinsey"
+  },
+  {
+    "code": "N4083580",
+    "company": "Nestlé",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-nestl"
+  },
+  {
+    "code": "N0992835",
+    "company": "Oracle (alt)",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-oracle-alt"
+  },
+  {
+    "code": "N0000537",
+    "company": "Procter & Gamble",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-procter-gamble"
+  },
+  {
+    "code": "N0000576",
+    "company": "Shell",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-shell"
+  },
+  {
+    "code": "D343260360",
+    "company": "Sixt",
+    "discount": null,
+    "region": "EU",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-sixt"
+  },
+  {
+    "code": "N4083735",
+    "company": "Target",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-target"
+  },
+  {
+    "code": "N2435318",
+    "company": "Volvo (alt)",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-volvo-alt"
+  },
+  {
+    "code": "N0156393",
+    "company": "Wells Fargo",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/hilton-wells-fargo"
   }
 ]
