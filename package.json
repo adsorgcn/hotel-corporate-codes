@@ -1,16 +1,23 @@
 {
   "name": "@adsorgcn/hotel-corporate-codes",
-  "version": "1.0.0",
-  "description": "Open-source hotel corporate codes database — 123+ verified discount codes for Marriott, Hilton, IHG, Hyatt & more",
+  "version": "1.1.0",
+  "description": "Open-source hotel corporate codes database — 290 corporate discount codes across 10 hotel groups: Marriott, Hilton, IHG, Hyatt, Wyndham, Radisson, Best Western, Choice, Accor & Omni",
   "main": "index.js",
+  "scripts": {
+    "test": "node --test \"test/**/*.test.js\"",
+    "build:readme": "node scripts/build-readme.js"
+  },
   "keywords": [
     "hotel",
     "corporate-codes",
+    "corporate-discount",
     "marriott",
     "hilton",
     "ihg",
     "hyatt",
     "wyndham",
+    "radisson",
+    "omni",
     "hotel-discount",
     "corporate-rate",
     "travel-hacking",

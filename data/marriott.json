@@ -533,7 +533,7 @@
   {
     "code": "OXD",
     "company": "Student (Enactus)",
-    "discount": "\u00a5400/night",
+    "discount": "¥400/night",
     "region": "China select",
     "idRequired": "No",
     "note": "No verification. Limited.",
@@ -565,5 +565,645 @@
     "idRequired": "Govt ID",
     "note": "Federal rate.",
     "verified": "2025-12"
+  },
+  {
+    "code": "ATK",
+    "company": "A.T. Kearney",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-at-kearney"
+  },
+  {
+    "code": "AET",
+    "company": "Aetna",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-aetna"
+  },
+  {
+    "code": "AIG",
+    "company": "AIG",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-aig"
+  },
+  {
+    "code": "A70",
+    "company": "Alaska Airlines",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-alaska-airlines"
+  },
+  {
+    "code": "ALL",
+    "company": "Allstate",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-allstate"
+  },
+  {
+    "code": "AA8",
+    "company": "American Airlines",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-american-airlines"
+  },
+  {
+    "code": "AFI",
+    "company": "American Family Insurance",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-american-family-insurance"
+  },
+  {
+    "code": "AMW",
+    "company": "Amway",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-amway"
+  },
+  {
+    "code": "AOL",
+    "company": "AOL",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-aol"
+  },
+  {
+    "code": "253568",
+    "company": "APAC",
+    "discount": null,
+    "region": "Asia",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-apac"
+  },
+  {
+    "code": "APP",
+    "company": "Applied Materials",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-applied-materials"
+  },
+  {
+    "code": "BOB",
+    "company": "Bank One",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-bank-one"
+  },
+  {
+    "code": "BEC",
+    "company": "Bechtel",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-bechtel"
+  },
+  {
+    "code": "256810",
+    "company": "BellSouth",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-bellsouth"
+  },
+  {
+    "code": "BAR",
+    "company": "Best Available Rate",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-best-available-rate"
+  },
+  {
+    "code": "340965",
+    "company": "BlackRock",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-blackrock"
+  },
+  {
+    "code": "5298",
+    "company": "BMS",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-bms"
+  },
+  {
+    "code": "BMW",
+    "company": "BMW",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-bmw"
+  },
+  {
+    "code": "5171",
+    "company": "Boeing",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-boeing"
+  },
+  {
+    "code": "CDH",
+    "company": "Cardinal Health",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-cardinal-health"
+  },
+  {
+    "code": "CFA",
+    "company": "Chick-fil-A",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-chick-fil-a"
+  },
+  {
+    "code": "CLX",
+    "company": "Clorox",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-clorox"
+  },
+  {
+    "code": "CVG",
+    "company": "Convergys",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-convergys"
+  },
+  {
+    "code": "281403",
+    "company": "CPI",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-cpi"
+  },
+  {
+    "code": "283335",
+    "company": "CVS",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-cvs"
+  },
+  {
+    "code": "D86",
+    "company": "De Beers",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-de-beers"
+  },
+  {
+    "code": "11353",
+    "company": "Deutsche Bahn",
+    "discount": null,
+    "region": "EU",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-deutsche-bahn"
+  },
+  {
+    "code": "2754",
+    "company": "DirecTV",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-directv"
+  },
+  {
+    "code": "253511",
+    "company": "E&Y (alt)",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-ey-alt"
+  },
+  {
+    "code": "EDD",
+    "company": "Eddie Bauer",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-eddie-bauer"
+  },
+  {
+    "code": "EDS",
+    "company": "Electronic Data Systems",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-electronic-data-systems"
+  },
+  {
+    "code": "EMC",
+    "company": "EMC",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-emc"
+  },
+  {
+    "code": "XOM",
+    "company": "ExxonMobil",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-exxonmobil"
+  },
+  {
+    "code": "295936",
+    "company": "Fed Rooms",
+    "discount": null,
+    "region": "US",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-fed-rooms"
+  },
+  {
+    "code": "66272",
+    "company": "Federated",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-federated"
+  },
+  {
+    "code": "FUS",
+    "company": "First USA",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-first-usa"
+  },
+  {
+    "code": "FLT",
+    "company": "Fleet Bank",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-fleet-bank"
+  },
+  {
+    "code": "FPL",
+    "company": "Florida Power",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-florida-power"
+  },
+  {
+    "code": "FUJ",
+    "company": "Fuji",
+    "discount": null,
+    "region": "Asia",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-fuji"
+  },
+  {
+    "code": "9360",
+    "company": "GE (alt)",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-ge-alt"
+  },
+  {
+    "code": "G2D",
+    "company": "General Dynamics",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-general-dynamics"
+  },
+  {
+    "code": "4764",
+    "company": "Gillette",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-gillette"
+  },
+  {
+    "code": "254797",
+    "company": "Goldman Sachs",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-goldman-sachs"
+  },
+  {
+    "code": "17885",
+    "company": "Harvard University",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-harvard-university"
+  },
+  {
+    "code": "5444",
+    "company": "HP (alt 2)",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-hp-alt-2"
+  },
+  {
+    "code": "5105",
+    "company": "HP (alt)",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-hp-alt"
+  },
+  {
+    "code": "290717",
+    "company": "IIDA",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-iida"
+  },
+  {
+    "code": "INL",
+    "company": "Intel (alt)",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-intel-alt"
+  },
+  {
+    "code": "10053",
+    "company": "Intuitive Surgical",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-intuitive-surgical"
+  },
+  {
+    "code": "JCP",
+    "company": "JC Penney",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-jc-penney"
+  },
+  {
+    "code": "KRO",
+    "company": "Kroger",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-kroger"
+  },
+  {
+    "code": "LGM",
+    "company": "Legg Mason",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-legg-mason"
+  },
+  {
+    "code": "LOW",
+    "company": "Lowe's",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-lowes"
+  },
+  {
+    "code": "256547",
+    "company": "LVMH",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-lvmh"
+  },
+  {
+    "code": "MAA",
+    "company": "Manhattan Associates",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-manhattan-associates"
+  },
+  {
+    "code": "MMP",
+    "company": "Marriott Explore",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-marriott-explore"
+  },
+  {
+    "code": "363006",
+    "company": "MIT",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-mit"
+  },
+  {
+    "code": "59009",
+    "company": "Morgan Stanley (alt)",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-morgan-stanley-alt"
+  },
+  {
+    "code": "NCY",
+    "company": "National City Bank",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-national-city-bank"
+  },
+  {
+    "code": "NOR",
+    "company": "Northrop Grumman",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-northrop-grumman"
+  },
+  {
+    "code": "NOV",
+    "company": "Novell",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-novell"
+  },
+  {
+    "code": "NVL",
+    "company": "Novellus",
+    "discount": null,
+    "region": "NA",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-novellus"
+  },
+  {
+    "code": "77377",
+    "company": "Oracle (alt)",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-oracle-alt"
+  },
+  {
+    "code": "PFE",
+    "company": "Pfizer (alt)",
+    "discount": null,
+    "region": "Global",
+    "idRequired": null,
+    "note": "",
+    "verified": null,
+    "source": "https://hotelcorporatecodes.com/codes/marriott-pfizer-alt"
   }
 ]
