@@ -142,9 +142,9 @@ function renderStats() {
     '  <tr>',
     `    <td align="center"><h3>${total}</h3><sub>hotel codes</sub></td>`,
     `    <td align="center"><h3>${groups}</h3><sub>hotel groups</sub></td>`,
-    `    <td align="center"><h3>${reported}</h3><sub>with a reported discount range</sub></td>`,
-    `    <td align="center"><h3>${sourced}</h3><sub>backed by an official brand page</sub></td>`,
-    `    <td align="center"><h3>${codes.carRental.length}</h3><sub>car-rental agreements</sub></td>`,
+    `    <td align="center"><h3>${reported}</h3><sub>reported ranges</sub></td>`,
+    `    <td align="center"><h3>${sourced}</h3><sub>official sources</sub></td>`,
+    `    <td align="center"><h3>${codes.carRental.length}</h3><sub>car-rental deals</sub></td>`,
     '  </tr>',
     '</table>'
   ].join('\n');

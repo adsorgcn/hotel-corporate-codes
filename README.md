@@ -28,9 +28,9 @@
   <tr>
     <td align="center"><h3>290</h3><sub>hotel codes</sub></td>
     <td align="center"><h3>10</h3><sub>hotel groups</sub></td>
-    <td align="center"><h3>127</h3><sub>with a reported discount range</sub></td>
-    <td align="center"><h3>4</h3><sub>backed by an official brand page</sub></td>
-    <td align="center"><h3>5</h3><sub>car-rental agreements</sub></td>
+    <td align="center"><h3>127</h3><sub>reported ranges</sub></td>
+    <td align="center"><h3>4</h3><sub>official sources</sub></td>
+    <td align="center"><h3>5</h3><sub>car-rental deals</sub></td>
   </tr>
 </table>
 
@@ -72,16 +72,16 @@ Just browsing? [hotelcorporatecodes.com](https://hotelcorporatecodes.com) render
 }
 ```
 
-| Field | Meaning | When it is `null` |
-|:------|:--------|:------------------|
-| `code` | The string you type on the hotel site, leading zeros included. Always a string. | never |
-| `company` | The organisation the agreement belongs to. | never |
-| `discount` | Range travellers reported, e.g. `10-15%`. A report, not a promise. | nobody has reported one |
-| `region` | Where the agreement is known to apply. | unknown |
-| `idRequired` | How often travellers were asked for proof of eligibility. | unknown |
-| `note` | Free text from the original record. | — (empty string) |
-| `verified` | Month a traveller last confirmed the code worked, `YYYY-MM`. | never confirmed |
-| `source` | Official page that publishes the code, when one exists. Only present on sourced records. | not present |
+| Field | Meaning |
+|:------|:--------|
+| `code` | The string you type on the hotel site, leading zeros included. Always present, always a string. |
+| `company` | The organisation the agreement belongs to. Always present. |
+| `discount` | Range travellers reported, e.g. `10-15%`. A report, not a promise. `null` until someone reports one. |
+| `region` | Where the agreement is known to apply. `null` when unknown. |
+| `idRequired` | How often travellers were asked for proof of eligibility. `null` when unknown. |
+| `note` | Free text from the original record; an empty string when there is none. |
+| `verified` | Month a traveller last confirmed the code worked, `YYYY-MM`. `null` when never confirmed. |
+| `source` | Page that publishes the code. Only present on sourced records. |
 
 Files: one JSON array per hotel group in [`data/`](data/), plus [`data/car-rental.json`](data/car-rental.json). The npm package ships exactly those files and [`index.js`](index.js); no build step, no dependencies.
 
