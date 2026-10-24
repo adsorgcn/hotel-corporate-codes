@@ -47,11 +47,11 @@ npm install @adsorgcn/hotel-corporate-codes
 ```js
 const codes = require('@adsorgcn/hotel-corporate-codes');
 
-codes.findByCode('000243132');      // → [{ brand: 'ihg', code: '000243132', company: 'IBM', … }]
-codes.searchByCompany('siemens');   // → Siemens at Marriott, Hilton, IHG, Hyatt, Wyndham, Best Western, Choice
-codes.getBrand('hyatt');            // → the 18 Hyatt records
-codes.getSafeCodes();               // → records where travellers report ID is "No" or "Rarely" checked
-codes.totalCodes;                   // → 290
+codes.findByCode('000243132');     // [{ brand: 'ihg', company: 'IBM', … }]
+codes.searchByCompany('siemens');  // Siemens at seven hotel groups
+codes.getBrand('hyatt');           // the 18 Hyatt records
+codes.getSafeCodes();              // ID check reported "No" or "Rarely"
+codes.totalCodes;                  // 290
 ```
 
 Just browsing? [hotelcorporatecodes.com](https://hotelcorporatecodes.com) renders this data with booking steps per brand, and its assistant answers questions about eligibility.
@@ -495,7 +495,7 @@ Enter the code at [choicehotels.com](https://www.choicehotels.com) → Special R
 Enter the code at [all.accor.com](https://all.accor.com) → Preferential code.
 
 <details>
-<summary>Show all 1 code</summary>
+<summary>Show the code</summary>
 
 | Code | Company | Discount | Region | ID check | Source |
 |:-----|:--------|:---------|:-------|:---------|:------:|
@@ -508,7 +508,7 @@ Enter the code at [all.accor.com](https://all.accor.com) → Preferential code.
 Enter the code at [omnihotels.com](https://www.omnihotels.com) → Corporate ID.
 
 <details>
-<summary>Show all 1 code</summary>
+<summary>Show the code</summary>
 
 | Code | Company | Discount | Region | ID check | Source |
 |:-----|:--------|:---------|:-------|:---------|:------:|

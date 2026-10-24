@@ -123,7 +123,7 @@ function section(s) {
     `Enter the code at [${s.site}](${s.url}) → ${s.where}.${s.note ? ' ' + s.note : ''}`,
     '',
     '<details>',
-    `<summary>Show all ${plural(rows.length, 'code', 'codes')}</summary>`,
+    `<summary>${rows.length === 1 ? 'Show the code' : `Show all ${rows.length} codes`}</summary>`,
     '',
     table(rows),
     '',
