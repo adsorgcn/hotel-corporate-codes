@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 /**
- * Regenerates the per-brand code tables in README.md from data/*.json.
+ * Regenerates the data-driven parts of README.md from data/*.json.
  *
- * Only the region between `<!-- codes:start -->` and `<!-- codes:end -->` is
- * rewritten; everything outside the markers is hand-written and left untouched.
+ * Two regions are rewritten; everything outside them is hand-written and left untouched:
+ *   <!-- stats:start --> … <!-- stats:end -->   the at-a-glance strip (counts)
+ *   <!-- codes:start --> … <!-- codes:end -->   the per-brand index + collapsible code tables
  *
  *   node scripts/build-readme.js          # rewrite README.md
  *   node scripts/build-readme.js --check  # exit 1 if README.md is out of date
@@ -15,53 +16,28 @@ const path = require('path');
 const codes = require('../index.js');
 
 const README = path.join(__dirname, '..', 'README.md');
-const START = '<!-- codes:start -->';
-const END = '<!-- codes:end -->';
+const REGIONS = {
+  stats: { start: '<!-- stats:start -->', end: '<!-- stats:end -->', render: renderStats },
+  codes: { start: '<!-- codes:start -->', end: '<!-- codes:end -->', render: renderCodes }
+};
 
-/** Rows shown in the main table; anything beyond goes into a collapsed <details>. */
-const MAX_MAIN_ROWS = 12;
-
-/** README order. `hint` lines are kept verbatim from the hand-written README. */
+/** README order. `where` is the booking field on the brand's own site, kept verbatim. */
 const SECTIONS = [
-  {
-    key: 'marriott',
-    program: 'Marriott Bonvoy',
-    brand: 'Marriott',
-    hint: '> Enter code at [marriott.com](https://www.marriott.com) → Special Rates → Corporate/Promo Code'
-  },
-  {
-    key: 'hilton',
-    program: 'Hilton Honors',
-    brand: 'Hilton',
-    hint: [
-      '> Enter code at [hilton.com](https://www.hilton.com) → Special Rates → Corporate Code',
-      '> ',
-      '> Hilton now offers company-specific booking pages at `hilton.com/en/preferred-rates/{company}/`'
-    ].join('\n')
-  },
-  {
-    key: 'ihg',
-    program: 'IHG One Rewards',
-    brand: 'IHG',
-    hint: '> Enter code at [ihg.com](https://www.ihg.com) → Corporate Code'
-  },
-  {
-    key: 'hyatt',
-    program: 'World of Hyatt',
-    brand: 'Hyatt',
-    hint: '> Enter code at [hyatt.com](https://www.hyatt.com) → Corp or Group Code'
-  },
-  { key: 'wyndham', program: 'Wyndham Rewards', brand: 'Wyndham' },
-  { key: 'radisson', program: 'Radisson Rewards', brand: 'Radisson' },
-  { key: 'bestwestern', program: 'Best Western Rewards', brand: 'Best Western' },
-  { key: 'choice', program: 'Choice Privileges', brand: 'Choice Hotels' },
-  { key: 'accor', program: 'Accor ALL', brand: 'Accor' },
-  { key: 'omni', program: 'Omni Select Guest', brand: 'Omni' }
+  { key: 'marriott', program: 'Marriott Bonvoy', brand: 'Marriott', site: 'marriott.com', url: 'https://www.marriott.com', where: 'Special Rates → Corporate/Promo Code' },
+  { key: 'hilton', program: 'Hilton Honors', brand: 'Hilton', site: 'hilton.com', url: 'https://www.hilton.com', where: 'Special Rates → Corporate Account', note: 'Hilton also publishes company-specific booking pages at `hilton.com/en/preferred-rates/{company}/`.' },
+  { key: 'ihg', program: 'IHG One Rewards', brand: 'IHG', site: 'ihg.com', url: 'https://www.ihg.com', where: 'Rate Preference → Corporate ID' },
+  { key: 'hyatt', program: 'World of Hyatt', brand: 'Hyatt', site: 'hyatt.com', url: 'https://www.hyatt.com', where: 'Special Rates → Corporate or Group Code' },
+  { key: 'wyndham', program: 'Wyndham Rewards', brand: 'Wyndham', site: 'wyndhamhotels.com', url: 'https://www.wyndhamhotels.com', where: 'Special Rates → Corporate Code' },
+  { key: 'radisson', program: 'Radisson Rewards', brand: 'Radisson', site: 'radissonhotels.com', url: 'https://www.radissonhotels.com', where: 'Corporate account number' },
+  { key: 'bestwestern', program: 'Best Western Rewards', brand: 'Best Western', site: 'bestwestern.com', url: 'https://www.bestwestern.com', where: 'Special Rate → Corporate ID' },
+  { key: 'choice', program: 'Choice Privileges', brand: 'Choice Hotels', site: 'choicehotels.com', url: 'https://www.choicehotels.com', where: 'Special Rate → Client ID' },
+  { key: 'accor', program: 'Accor ALL', brand: 'Accor', site: 'all.accor.com', url: 'https://all.accor.com', where: 'Preferential code' },
+  { key: 'omni', program: 'Omni Select Guest', brand: 'Omni', site: 'omnihotels.com', url: 'https://www.omnihotels.com', where: 'Corporate ID' }
 ];
 
 const TABLE_HEADER = [
-  '| Code | Company | Discount | Region | ID Check |',
-  '|------|---------|----------|--------|----------|'
+  '| Code | Company | Discount | Region | ID check | Source |',
+  '|:-----|:--------|:---------|:-------|:---------|:------:|'
 ].join('\n');
 
 /** Escape a cell value for a markdown table; unknown (null/empty) → em dash. */
@@ -87,58 +63,110 @@ function idCheck(value) {
   }
 }
 
+/** A `source` on the brand's own domain is official evidence; one on hotelcorporatecodes.com is the site's record page. */
+function officialSource(record) {
+  return typeof record.source === 'string' && record.source.startsWith('https://') && !/https:\/\/(www\.)?hotelcorporatecodes\.com\//.test(record.source);
+}
+
+function source(record) {
+  if (officialSource(record)) return `[official ↗](${record.source})`;
+  if (typeof record.source === 'string' && record.source) return `[site ↗](${record.source})`;
+  return '';
+}
+
 function row(record) {
   const code = record.discount === null || record.discount === undefined
-    ? cell(record.code)
-    : `**${cell(record.code)}**`;
-  return `| ${code} | ${cell(record.company)} | ${cell(record.discount)} | ${cell(record.region)} | ${idCheck(record.idRequired)} |`;
+    ? `\`${cell(record.code)}\``
+    : `**\`${cell(record.code)}\`**`;
+  return `| ${code} | ${cell(record.company)} | ${cell(record.discount)} | ${cell(record.region)} | ${idCheck(record.idRequired)} | ${source(record)} |`;
 }
 
 function table(records) {
   return [TABLE_HEADER, ...records.map(row)].join('\n');
 }
 
-function section({ key, program, brand, hint }) {
+function orderedRecords(key) {
   const records = codes.getBrand(key);
   const withDiscount = records.filter((r) => r.discount !== null && r.discount !== undefined);
   const withoutDiscount = records.filter((r) => r.discount === null || r.discount === undefined);
-  const rows = withDiscount.concat(withoutDiscount);
-  const main = rows.length > MAX_MAIN_ROWS ? rows.slice(0, MAX_MAIN_ROWS) : rows;
-  const rest = rows.slice(main.length);
+  return withDiscount.concat(withoutDiscount);
+}
 
-  const out = [`## ${program} — ${rows.length} ${rows.length === 1 ? 'Code' : 'Codes'}`, ''];
-  if (hint) out.push(hint, '');
-  out.push(table(main));
-  if (rest.length) {
-    out.push(
-      '',
-      '<details>',
-      `<summary><strong>View all ${rows.length} ${brand} codes →</strong></summary>`,
-      '',
-      table(rest),
-      '',
-      '</details>'
-    );
+function plural(n, one, many) {
+  return `${n} ${n === 1 ? one : many}`;
+}
+
+/** Per-brand index: one row per hotel group, linking to its section below. */
+function indexTable() {
+  const lines = [
+    '| Hotel group | Codes | With reported discount | Where the code goes on the brand site |',
+    '|:------------|------:|-----------------------:|:--------------------------------------|'
+  ];
+  for (const s of SECTIONS) {
+    const records = codes.getBrand(s.key);
+    const reported = records.filter((r) => r.discount !== null && r.discount !== undefined).length;
+    lines.push(`| [${s.program}](#${anchor(s)}) | **${records.length}** | ${reported} | [${s.site}](${s.url}) → ${s.where} |`);
   }
+  return lines.join('\n');
+}
+
+function anchor(s) {
+  return `${s.program} ${plural(codes.getBrand(s.key).length, 'code', 'codes')}`
+    .toLowerCase().replace(/[^a-z0-9 -]/g, '').replace(/\s+/g, '-');
+}
+
+function section(s) {
+  const rows = orderedRecords(s.key);
+  const out = [
+    `### ${s.program} (${plural(rows.length, 'code', 'codes')})`,
+    '',
+    `Enter the code at [${s.site}](${s.url}) → ${s.where}.${s.note ? ' ' + s.note : ''}`,
+    '',
+    '<details>',
+    `<summary>Show all ${plural(rows.length, 'code', 'codes')}</summary>`,
+    '',
+    table(rows),
+    '',
+    '</details>'
+  ];
   return out.join('\n');
 }
 
-/** The full generated block, without the markers. */
-function render() {
+function renderStats() {
+  const total = codes.totalCodes;
+  const groups = codes.brands.length;
+  const reported = codes.brands.reduce((n, b) => n + codes.getBrand(b).filter((r) => r.discount !== null && r.discount !== undefined).length, 0);
+  const sourced = codes.brands.reduce((n, b) => n + codes.getBrand(b).filter(officialSource).length, 0);
+  return [
+    '<table align="center">',
+    '  <tr>',
+    `    <td align="center"><h3>${total}</h3><sub>hotel codes</sub></td>`,
+    `    <td align="center"><h3>${groups}</h3><sub>hotel groups</sub></td>`,
+    `    <td align="center"><h3>${reported}</h3><sub>with a reported discount range</sub></td>`,
+    `    <td align="center"><h3>${sourced}</h3><sub>backed by an official brand page</sub></td>`,
+    `    <td align="center"><h3>${codes.carRental.length}</h3><sub>car-rental agreements</sub></td>`,
+    '  </tr>',
+    '</table>'
+  ].join('\n');
+}
+
+function renderCodes() {
   const covered = new Set(SECTIONS.map((s) => s.key));
   for (const brand of codes.brands) {
     if (!covered.has(brand)) throw new Error(`scripts/build-readme.js has no README section for brand "${brand}"`);
   }
-  return SECTIONS.map(section).join('\n\n---\n\n');
+  return [indexTable(), '', SECTIONS.map(section).join('\n\n')].join('\n');
+}
+
+function replaceRegion(current, { start, end, render }) {
+  const a = current.indexOf(start);
+  const b = current.indexOf(end);
+  if (a === -1 || b === -1 || b < a) throw new Error(`README.md must contain ${start} followed by ${end}`);
+  return current.slice(0, a + start.length) + '\n\n' + render() + '\n\n' + current.slice(b);
 }
 
 function build(current) {
-  const start = current.indexOf(START);
-  const end = current.indexOf(END);
-  if (start === -1 || end === -1 || end < start) {
-    throw new Error(`README.md must contain ${START} followed by ${END}`);
-  }
-  return current.slice(0, start + START.length) + '\n\n' + render() + '\n\n' + current.slice(end);
+  return Object.values(REGIONS).reduce(replaceRegion, current);
 }
 
 function main() {
@@ -161,4 +189,4 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { render, build };
+module.exports = { render: renderCodes, renderStats, build };

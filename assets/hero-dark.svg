@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Hotel Corporate Codes — open data</title>
+  <desc id="d">290 hotel corporate rate codes across 10 hotel groups, published as JSON and an npm package.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1F33"/>
+      <stop offset="1" stop-color="#12466E"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.35" r="0.55">
+      <stop offset="0" stop-color="#F0B657" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#F0B657" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FBF9F4"/>
+      <stop offset="1" stop-color="#EDE8DD"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F0B657"/>
+      <stop offset="1" stop-color="#D99A2B"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#FFFFFF" fill-opacity="0.07"/>
+    </pattern>
+    <clipPath id="cardClip"><rect x="-160" y="-100" width="320" height="200" rx="18"/></clipPath>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <rect width="1200" height="400" fill="url(#grid)"/>
+  <rect width="1200" height="400" fill="url(#glow)"/>
+
+  <g font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" fill="#FFFFFF">
+    <text x="80" y="118" font-size="13" letter-spacing="3.2" fill="#F0B657" font-weight="600">OPEN DATA · MIT · JSON + NPM</text>
+    <text x="78" y="190" font-size="58" font-weight="700" letter-spacing="-1.2">Hotel Corporate Codes</text>
+    <text x="80" y="236" font-size="21" fill="#FFFFFF" fill-opacity="0.78">290 corporate rate codes across 10 hotel groups,</text>
+    <text x="80" y="266" font-size="21" fill="#FFFFFF" fill-opacity="0.78">source-linked and machine-readable.</text>
+    <g font-size="14" font-weight="600" letter-spacing="0.6">
+      <rect x="80" y="300" width="118" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.18"/>
+      <text x="139" y="322" text-anchor="middle">290 codes</text>
+      <rect x="210" y="300" width="118" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.18"/>
+      <text x="269" y="322" text-anchor="middle">10 groups</text>
+      <rect x="340" y="300" width="150" height="34" rx="17" fill="#F0B657" fill-opacity="0.14" stroke="#F0B657" stroke-opacity="0.5"/>
+      <text x="415" y="322" text-anchor="middle" fill="#F0B657">npm · @adsorgcn</text>
+    </g>
+  </g>
+
+  <!-- key-card stack -->
+  <g transform="translate(868 200) rotate(-8)">
+    <rect x="-146" y="-78" width="320" height="200" rx="18" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.12" transform="translate(28 34)"/>
+    <rect x="-146" y="-78" width="320" height="200" rx="18" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.14" transform="translate(14 17)"/>
+    <g transform="translate(14 22)" filter="url(#shadow)">
+      <rect x="-160" y="-100" width="320" height="200" rx="18" fill="url(#card)"/>
+      <rect x="-160" y="-52" width="320" height="26" fill="#1B2733"/>
+      <rect x="-132" y="2" width="44" height="34" rx="6" fill="url(#gold)"/>
+      <path d="M-124 10h28M-124 19h28M-124 28h28M-110 2v34" stroke="#8E6A1C" stroke-opacity="0.55" stroke-width="1.2"/>
+      <g font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+        <text x="-132" y="-70" font-size="12" font-weight="700" letter-spacing="2.4" fill="#12466E">HOTELCORPORATECODES</text>
+        <text x="132" y="-70" font-size="11" letter-spacing="1.6" fill="#1B2733" fill-opacity="0.55" text-anchor="end">REF · 2026</text>
+        <text x="-70" y="30" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="40" font-weight="700" letter-spacing="4" fill="#12466E">SIE</text>
+        <text x="-132" y="68" font-size="12" letter-spacing="1.4" fill="#1B2733" fill-opacity="0.7">SIEMENS · MARRIOTT BONVOY</text>
+        <text x="132" y="68" font-size="12" letter-spacing="1.4" fill="#1B2733" fill-opacity="0.7" text-anchor="end">GLOBAL</text>
+      </g>
+      <g clip-path="url(#cardClip)">
+        <rect x="-420" y="-120" width="180" height="260" fill="url(#shine)" transform="skewX(-20)">
+          <animate attributeName="x" values="-480;420" dur="6s" begin="1s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+  </g>
+
+  <rect x="80" y="372" width="56" height="3" rx="1.5" fill="#F0B657"/>
+</svg>
