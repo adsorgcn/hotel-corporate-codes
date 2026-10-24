@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://hotelcorporatecodes.com">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/adsorgcn/hotel-corporate-codes/main/assets/hero-dark.svg">
-      <img src="https://raw.githubusercontent.com/adsorgcn/hotel-corporate-codes/main/assets/hero-light.svg" alt="Hotel Corporate Codes — 290 corporate rate codes across 10 hotel groups, source-linked and machine-readable" width="100%">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+      <img src="assets/hero-light.svg" alt="Hotel Corporate Codes — 290 corporate rate codes across 10 hotel groups, source-linked and machine-readable" width="100%">
     </picture>
   </a>
 </p>
