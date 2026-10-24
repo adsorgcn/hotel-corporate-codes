@@ -1,5 +1,5 @@
 {
-  "data_version": "1.0.5",
+  "data_version": "1.0.6",
   "evidence": [
     {
       "content_sha256": "08f7b141e5cd116493b163d0333c6977b43c0f6d7159eb6f5748088f31d5fa70",
@@ -4650,6 +4650,32 @@
         "legacy.idRequired",
         "legacy.note",
         "legacy.verified"
+      ]
+    },
+    {
+      "content_sha256": "a8cf515760610578323d97f04414f5122193c1cac9977e9ea4d63462db1a8398",
+      "evidence_id": "e_c2d721afc8e841810533390c",
+      "independence_group": null,
+      "independence_review": null,
+      "observed_at": "2026-10-24T01:03:06Z",
+      "published_at": null,
+      "publisher": "cluballiance.aaa.com",
+      "short_excerpt": "Members save 10% or more with AAA rates at Choice Hotels® and earn Choice Privileges® points at the same time. Choice Hotels®Save 10% or more",
+      "source_type": "agreement_issuer",
+      "source_url": "https://cluballiance.aaa.com/travel/hotels",
+      "supported_claims": [
+        {
+          "field": "discount",
+          "value": "Members save 10% or more with AAA rates at Choice Hotels."
+        },
+        {
+          "field": "eligibility",
+          "value": "The 10% or more Choice Hotels AAA rate is available to AAA members."
+        }
+      ],
+      "supported_fields": [
+        "discount",
+        "eligibility"
       ]
     },
     {
@@ -14045,11 +14071,19 @@
       "claims": [
         {
           "evidence_ids": [
-            "e_0b80ce560b4a7d525f7f7b94"
+            "e_c2d721afc8e841810533390c"
+          ],
+          "evidence_level": "source_confirmed",
+          "field": "discount",
+          "value": "Members save 10% or more with AAA rates at Choice Hotels."
+        },
+        {
+          "evidence_ids": [
+            "e_c2d721afc8e841810533390c"
           ],
           "evidence_level": "source_confirmed",
           "field": "eligibility",
-          "value": "For the AAA/CAA rate described by The Auto Club Group, membership must be in good standing at reservation and check-in. Proof of AAA membership must be supplied if requested at check-in; the hotel may cancel or reprice the reservation to a non-AAA rate if it is not supplied."
+          "value": "The 10% or more Choice Hotels AAA rate is available to AAA members."
         },
         {
           "evidence_ids": [
@@ -14110,11 +14144,12 @@
       ],
       "code": "AAA",
       "company": "AAA",
-      "content_changed_at": "2026-09-12T01:08:48Z",
-      "eligibility": "For the AAA/CAA rate described by The Auto Club Group, membership must be in good standing at reservation and check-in. Proof of AAA membership must be supplied if requested at check-in; the hotel may cancel or reprice the reservation to a non-AAA rate if it is not supplied.",
+      "content_changed_at": "2026-10-24T01:03:12Z",
+      "eligibility": "The 10% or more Choice Hotels AAA rate is available to AAA members.",
       "evidence_ids": [
         "e_0b80ce560b4a7d525f7f7b94",
-        "e_55e0d49cfc05a68fba0133d4"
+        "e_55e0d49cfc05a68fba0133d4",
+        "e_c2d721afc8e841810533390c"
       ],
       "evidence_level": "source_confirmed",
       "first_seen_at": "2026-09-10T04:11:47Z",
