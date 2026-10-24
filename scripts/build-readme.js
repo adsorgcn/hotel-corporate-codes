@@ -170,7 +170,8 @@ function build(current) {
 }
 
 function main() {
-  const current = fs.readFileSync(README, 'utf8');
+  // A Windows checkout with core.autocrlf may hand us CRLF; the repository is LF, so compare and write LF.
+  const current = fs.readFileSync(README, 'utf8').replace(/\r\n/g, '\n');
   const next = build(current);
   const changed = next !== current;
 
