@@ -12,12 +12,14 @@
   <a href="https://github.com/adsorgcn/hotel-corporate-codes/releases"><img alt="data releases" src="https://img.shields.io/github/v/tag/adsorgcn/hotel-corporate-codes?filter=data-*&label=data%20release&style=flat-square&color=F0B657&labelColor=0B1F33"></a>
   <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/github/license/adsorgcn/hotel-corporate-codes?style=flat-square&color=12466E&labelColor=0B1F33"></a>
   <a href="https://hotelcorporatecodes.com"><img alt="live site" src="https://img.shields.io/badge/live%20site-hotelcorporatecodes.com-12466E?style=flat-square&labelColor=0B1F33"></a>
+  <a href="https://www.youtube.com/@hotelcorporatecodes"><img alt="YouTube channel" src="https://img.shields.io/badge/YouTube-%40hotelcorporatecodes-12466E?style=flat-square&logo=youtube&logoColor=white&labelColor=0B1F33"></a>
 </p>
 
 <p align="center">
   The reference dataset behind <a href="https://hotelcorporatecodes.com">hotelcorporatecodes.com</a>.<br>
   Every record is a company's corporate rate code for a hotel group, as plain JSON you can <code>require()</code>.<br>
-  Unknown values stay <code>null</code>. Nothing is invented to fill a cell.
+  Unknown values stay <code>null</code>. Nothing is invented to fill a cell.<br>
+  <sub>The original HotelCorporateCodes.com. Independent, not affiliated with any hotel group.</sub>
 </p>
 
 <br>
@@ -50,7 +52,6 @@ const codes = require('@adsorgcn/hotel-corporate-codes');
 codes.findByCode('000243132');     // [{ brand: 'ihg', company: 'IBM', … }]
 codes.searchByCompany('siemens');  // Siemens at seven hotel groups
 codes.getBrand('hyatt');           // the 18 Hyatt records
-codes.getSafeCodes();              // ID check reported "No" or "Rarely"
 codes.totalCodes;                  // 290
 ```
 
@@ -547,16 +548,32 @@ Business and leisure references can carry different terms. Choose the one allowe
 
 ## Field notes
 
-- **The bigger the gap, the more likely the check.** Hotels verify eligibility more often when the corporate rate sits far below their average room rate, and more often in tier-one cities.
+- **Checks vary by hotel.** Some hotels ask every corporate-rate guest for proof and some rarely ask. Either way, eligibility comes from your organisation's agreement, not from whether anyone checks.
 - **Compare before you book.** A corporate rate is not automatically the lowest; weekend promotions and flash sales can beat it for the same room and dates.
-- **Loyalty points still count.** Corporate-rate stays earn full points and elite credit at every major chain. That is published policy, not a loophole.
-- **If you are asked for proof and have none,** you pay the public rate. There is no penalty beyond that.
+- **Points follow the program's rules.** Corporate rates are usually qualifying rates, but read the terms: Marriott, for example, does not award points for meeting or group rooms you do not pay for yourself.
+- **If you are asked for proof and have none,** the hotel may change your booking to its public rate. Marriott's rules name the Best Available Rate. Confirm your eligibility before you rely on the corporate rate.
+
+<br>
+
+## Watch: Hotel Corporate Rates Explained
+
+Short explainers on the [Hotel Corporate Codes](https://www.youtube.com/@hotelcorporatecodes) YouTube channel. Each one is also embedded on the site page it explains.
+
+| # | Video | Length | On the site |
+|:--|:------|:-------|:------------|
+| 1 | [What Is a Hotel Corporate Rate? Who Can Use It and How to Book It](https://youtu.be/16do5leVpUA) | 3:00 | [Home](https://hotelcorporatecodes.com/) |
+| 2 | [Is a Hotel Corporate Rate Always the Cheapest? 5 Rate Types Compared](https://youtu.be/hMYkKQ6DGeg) | 3:34 | [How to use a code](https://hotelcorporatecodes.com/tips) |
+| 3 | [Marriott, Hilton, IHG Corporate Codes: Where to Enter, Points, Proof](https://youtu.be/jvLFzXxar_s) | 3:33 | [Brand pages](https://hotelcorporatecodes.com/hilton-corporate-codes) |
+| 4 | [Do Hotels Check ID for Corporate Rates? What to Show at Check-In](https://youtu.be/nDW9WfkWN3c) | 4:33 | [Do hotels check corporate codes?](https://hotelcorporatecodes.com/q/do-hotels-check-corporate-codes.html) |
+| 5 | [What Should You Check Before Booking a Hotel Corporate Rate?](https://youtu.be/TwxOMfsHE-E) | 4:31 | [Every code page, under Before you book](https://hotelcorporatecodes.com/codes/marriott-ibm) |
+| 6 | [Marriott Corporate Code Verification: How the Work Email Check Works](https://youtu.be/cB4CJYjMPVE) | 4:47 | [Marriott corporate codes](https://hotelcorporatecodes.com/marriott-corporate-codes) |
+| 7 | [Can I Book a Hotel Corporate Rate for Someone Else? It Depends on Who Stays](https://youtu.be/AzWFOGJNl78) | 4:46 | [How to use a code, step 1](https://hotelcorporatecodes.com/tips) |
 
 <br>
 
 ## Where the data comes from
 
-- **Site mirror.** The 290 hotel records match what [hotelcorporatecodes.com](https://hotelcorporatecodes.com) serves, pulled from its public `/api/agent/codes` endpoint. Discount ranges, regions and ID notes on the original 123 records are traveller reports collected over years; the newer records carry `null` until someone reports.
+- **Site mirror.** 286 of the 290 hotel records match what [hotelcorporatecodes.com](https://hotelcorporatecodes.com) serves through its public `/api/agent/codes` endpoint. The other 4 (IHG Global E; Wyndham Access Development, OfferFit and Passport Unlimited) come from official pages through the data releases below and are not on the site yet. Discount ranges, regions and ID notes on the original 123 records are traveller reports collected over years; the newer records carry `null` until someone reports.
 - **Evidence-graded releases.** Codes added with an official source are published as tagged releases `data-v1.0.N` on the [`hotel-data-maintenance`](https://github.com/adsorgcn/hotel-corporate-codes/tree/hotel-data-maintenance) branch, each with the source URL and the month it was checked.
 - **No fabrication.** The test suite rejects records that are missing fields, duplicate a code within a brand, carry a malformed `verified` month or a non-HTTPS `source`. `npm run build:readme -- --check` fails if these tables drift from the JSON.
 
@@ -576,6 +593,7 @@ npm run build:readme     # regenerate the tables above from data/
 ## Related
 
 - [hotelcorporatecodes.com](https://hotelcorporatecodes.com) — the site this data powers, with per-brand booking steps and an eligibility assistant
+- [Hotel Corporate Codes on YouTube](https://www.youtube.com/@hotelcorporatecodes) — short videos on eligibility, booking and what to check, from the same team
 - [I-Lang Protocol](https://ilang.ai) — the AI-native format the site's machine-readable index is written in
 
 <br>
