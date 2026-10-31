@@ -61,7 +61,10 @@ module.exports = {
     return collect((record) => record.code.toLowerCase() === needle);
   },
 
-  /** Get all hotel codes with no ID verification risk (`idRequired` is "No" or "Rarely") */
+  /**
+   * Hotel codes whose `idRequired` traveller report is "No" or "Rarely".
+   * A report, not a guarantee: hotels may still ask for proof, and eligibility comes from your organisation's agreement.
+   */
   getSafeCodes() {
     return collect((code) => code.idRequired === 'No' || code.idRequired === 'Rarely');
   },
