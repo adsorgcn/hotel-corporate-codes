@@ -1,0 +1,194 @@
+{
+  "changes": [
+    {
+      "after": {
+        "brand": "wyndham",
+        "claims": [
+          {
+            "evidence_ids": [
+              "e_204dab827dce1fd2c71e96dc"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "code",
+            "value": "8000002970"
+          },
+          {
+            "evidence_ids": [
+              "e_204dab827dce1fd2c71e96dc"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "company",
+            "value": "Passport Unlimited"
+          },
+          {
+            "evidence_ids": [
+              "e_204dab827dce1fd2c71e96dc"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "discount",
+            "value": "Up to 20% off the property's Standard Rate, excluding taxes and additional fees; no fixed saving is guaranteed."
+          },
+          {
+            "evidence_ids": [
+              "e_37a67d2849d83bc4052b32bc"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "eligibility",
+            "value": "Passport members; discount automatically applied when searching for dates and destination from this page, or by calling 877-670-7088 and giving corporate code 8000002970. Proof of membership must be presented upon check-in."
+          },
+          {
+            "evidence_ids": [
+              "e_37a67d2849d83bc4052b32bc"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "scope",
+            "value": "Participating hotels, subject to availability; blackout dates and certain restrictions may apply. Stay must be booked through this website or by calling the phone number above and mentioning membership at the time of reservation. Not valid if the hotel is called directly."
+          }
+        ],
+        "code": "8000002970",
+        "company": "Passport Unlimited",
+        "content_changed_at": "2026-11-02T01:02:34Z",
+        "eligibility": "Passport members; discount automatically applied when searching for dates and destination from this page, or by calling 877-670-7088 and giving corporate code 8000002970. Proof of membership must be presented upon check-in.",
+        "evidence_ids": [
+          "e_204dab827dce1fd2c71e96dc",
+          "e_37a67d2849d83bc4052b32bc"
+        ],
+        "evidence_level": "source_confirmed",
+        "first_seen_at": "2026-09-10T04:18:52Z",
+        "lifecycle_status": "listed",
+        "record_id": "r_d572e7b6172509acbb92f983",
+        "scope": "Participating hotels, subject to availability; blackout dates and certain restrictions may apply. Stay must be booked through this website or by calling the phone number above and mentioning membership at the time of reservation. Not valid if the hotel is called directly.",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "before": {
+        "brand": "wyndham",
+        "claims": [
+          {
+            "evidence_ids": [
+              "e_204dab827dce1fd2c71e96dc"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "code",
+            "value": "8000002970"
+          },
+          {
+            "evidence_ids": [
+              "e_204dab827dce1fd2c71e96dc"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "company",
+            "value": "Passport Unlimited"
+          },
+          {
+            "evidence_ids": [
+              "e_204dab827dce1fd2c71e96dc"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "discount",
+            "value": "Up to 20% off the property's Standard Rate, excluding taxes and additional fees; no fixed saving is guaranteed."
+          },
+          {
+            "evidence_ids": [
+              "e_204dab827dce1fd2c71e96dc"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "eligibility",
+            "value": "Passport members; mention membership when reserving and present proof at check-in. Advance reservation through the offer page or designated reservation number is required; direct calls to the hotel do not qualify."
+          },
+          {
+            "evidence_ids": [
+              "e_204dab827dce1fd2c71e96dc"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "scope",
+            "value": "Participating Wyndham hotels, subject to availability, blackout dates and restrictions. Cannot be combined with other discounts, offers, group rates or special promotions."
+          }
+        ],
+        "code": "8000002970",
+        "company": "Passport Unlimited",
+        "content_changed_at": "2026-09-10T04:18:52Z",
+        "eligibility": "Passport members; mention membership when reserving and present proof at check-in. Advance reservation through the offer page or designated reservation number is required; direct calls to the hotel do not qualify.",
+        "evidence_ids": [
+          "e_204dab827dce1fd2c71e96dc"
+        ],
+        "evidence_level": "source_confirmed",
+        "first_seen_at": "2026-09-10T04:18:52Z",
+        "lifecycle_status": "listed",
+        "record_id": "r_d572e7b6172509acbb92f983",
+        "scope": "Participating Wyndham hotels, subject to availability, blackout dates and restrictions. Cannot be combined with other discounts, offers, group rates or special promotions.",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "kind": "updated",
+      "record_id": "r_d572e7b6172509acbb92f983"
+    },
+    {
+      "after": {
+        "brand": "wyndham",
+        "claims": [
+          {
+            "evidence_ids": [
+              "e_322a15545da4236ea7163b70"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "code",
+            "value": "1000057687"
+          },
+          {
+            "evidence_ids": [
+              "e_322a15545da4236ea7163b70"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "company",
+            "value": "Windfall Group Purchasing Organization"
+          },
+          {
+            "evidence_ids": [
+              "e_322a15545da4236ea7163b70"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "discount",
+            "value": "12% off Standard Rate for stays of 4 or fewer consecutive nights; 18% off for stays greater than 4 but fewer than 14 consecutive nights; 22% off for stays of 14 or more consecutive nights. Savings exclude taxes, resort/service fees, incidentals, gratuities, and additional per room, per night charges."
+          },
+          {
+            "evidence_ids": [
+              "e_322a15545da4236ea7163b70"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "eligibility",
+            "value": "Offered to any guest who is employed by, associated with or a member of any company, association or group with a then valid membership to the Windfall Group Purchasing Organization."
+          },
+          {
+            "evidence_ids": [
+              "e_322a15545da4236ea7163b70"
+            ],
+            "evidence_level": "source_confirmed",
+            "field": "scope",
+            "value": "Participating Hotels by Wyndham, subject to availability; not offered at Wyndham Alltra hotels. Bookings via the Windfall member benefits portal, wyndhamhotels.com with corporate code 1000057687, the toll-free call center at 800-407-9832, or the Wyndham app with corporate code 1000057687. Blackout dates and restrictions may apply; may not be combined with any other offer or discount other than applicable registration-based, bonus point promotions."
+          }
+        ],
+        "code": "1000057687",
+        "company": "Windfall Group Purchasing Organization",
+        "content_changed_at": "2026-11-02T01:02:34Z",
+        "eligibility": "Offered to any guest who is employed by, associated with or a member of any company, association or group with a then valid membership to the Windfall Group Purchasing Organization.",
+        "evidence_ids": [
+          "e_322a15545da4236ea7163b70"
+        ],
+        "evidence_level": "source_confirmed",
+        "first_seen_at": "2026-11-02T01:02:34Z",
+        "lifecycle_status": "listed",
+        "record_id": "r_f5cc1aa7dbd077efa752dfce",
+        "scope": "Participating Hotels by Wyndham, subject to availability; not offered at Wyndham Alltra hotels. Bookings via the Windfall member benefits portal, wyndhamhotels.com with corporate code 1000057687, the toll-free call center at 800-407-9832, or the Wyndham app with corporate code 1000057687. Blackout dates and restrictions may apply; may not be combined with any other offer or discount other than applicable registration-based, bonus point promotions.",
+        "valid_from": null,
+        "valid_until": null
+      },
+      "before": null,
+      "kind": "added",
+      "record_id": "r_f5cc1aa7dbd077efa752dfce"
+    }
+  ],
+  "data_version": "1.0.7",
+  "parent_version": "1.0.6",
+  "schema_version": 1
+}
