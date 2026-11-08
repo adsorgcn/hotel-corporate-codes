@@ -1,0 +1,68 @@
+[
+  {
+    "url": "https://store.hbr.org/product/hilton-hhonors-worldwide-loyalty-wars/501010",
+    "http_status": 200,
+    "final_url": "https://store.hbr.org/product/hilton-hhonors-worldwide-loyalty-wars/501010",
+    "bytes": 193000,
+    "sha256": "32b54211c0a3f34e682894e1638076b6024413f32e116838542c06615a5af79e",
+    "observed_at_utc": "2026-11-08T21:10:29.320676+00:00"
+  },
+  {
+    "url": "https://research.polyu.edu.hk/en/publications/segmenting-hotel-customers-based-on-rate-fences-through-conjoint-/",
+    "http_status": 200,
+    "final_url": "https://research.polyu.edu.hk/en/publications/segmenting-hotel-customers-based-on-rate-fences-through-conjoint-/",
+    "bytes": 52802,
+    "sha256": "ee8245f2178cfc8f05d804e98825edcc6399d8c8bcb229643786cac06946ec21",
+    "observed_at_utc": "2026-11-08T21:10:30.815380+00:00"
+  },
+  {
+    "url": "https://pure.port.ac.uk/ws/portalfiles/portal/7066906/Strategic_and_tactical_price_decisions_in_hotel_revenue_management_postprint.pdf",
+    "http_status": 200,
+    "final_url": "https://pure.port.ac.uk/ws/portalfiles/portal/7066906/Strategic_and_tactical_price_decisions_in_hotel_revenue_management_postprint.pdf",
+    "bytes": 739861,
+    "sha256": "f953776581c4579cd86829f988d67eb6fd2bace487f9454aa1775fd12c90c01b",
+    "observed_at_utc": "2026-11-08T21:10:31.027164+00:00"
+  },
+  {
+    "url": "https://udspace.udel.edu/server/api/core/bitstreams/395bec67-d12b-4c50-992d-bde878ca4191/content",
+    "http_status": 200,
+    "final_url": "https://udspace.udel.edu/server/api/core/bitstreams/395bec67-d12b-4c50-992d-bde878ca4191/content",
+    "bytes": 1362908,
+    "sha256": "0c210405d5b84f647cc6ac1d49fad14023ca1816da42442f41e32e9a4f89e1a6",
+    "observed_at_utc": "2026-11-08T21:10:31.558569+00:00"
+  },
+  {
+    "url": "https://researchportal.port.ac.uk/en/publications/strategic-and-tactical-price-decisions-in-hotel-revenue-managemen/",
+    "http_status": 200,
+    "final_url": "https://researchportal.port.ac.uk/en/publications/strategic-and-tactical-price-decisions-in-hotel-revenue-managemen/",
+    "bytes": 55475,
+    "sha256": "b40a7822332292d8df991e4d0a200d0f927b4ad168498eb0ee939244e3429d45",
+    "observed_at_utc": "2026-11-08T21:12:29.149486+00:00"
+  },
+  {
+    "url": "https://journals.sagepub.com/doi/10.1177/1938965513507497",
+    "http_status": 403,
+    "error": "HTTP Error 403: Forbidden",
+    "observed_at_utc": "2026-11-08T21:12:28.755832+00:00"
+  },
+  {
+    "url": "https://journals.sagepub.com/doi/abs/10.1177/0010880404270032",
+    "http_status": 403,
+    "error": "HTTP Error 403: Forbidden",
+    "observed_at_utc": "2026-11-08T21:12:28.771319+00:00"
+  },
+  {
+    "url": "https://in.sagepub.com/en-in/ind/journal/cornell-hospitality-quarterly",
+    "http_status": 200,
+    "final_url": "https://in.sagepub.com/en-in/ind/journal/cornell-hospitality-quarterly",
+    "bytes": 109112,
+    "sha256": "4930becb93282d609e040e1877345ee6651fdbcb02d5724796f0717f544d8a23",
+    "observed_at_utc": "2026-11-08T21:12:29.523497+00:00"
+  },
+  {
+    "url": "https://www.tandfonline.com/doi/full/10.1080/10548408.2015.1063825",
+    "http_status": 403,
+    "error": "HTTP Error 403: Forbidden",
+    "observed_at_utc": "2026-11-08T21:12:28.804321+00:00"
+  }
+]

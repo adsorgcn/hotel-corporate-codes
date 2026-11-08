@@ -590,6 +590,53 @@ npm run build:readme     # regenerate the tables above from data/
 
 <br>
 
+<!-- citation:start -->
+
+## Cite this dataset
+
+![Zenodo publication pending](https://img.shields.io/badge/Zenodo-DOI%20pending-777777?style=flat-square)
+
+A production Zenodo DOI has not been minted. This citation currently identifies the fixed data snapshot. The citation-metadata release is 1.1.0+doi.1. The all-versions concept DOI will be added after registration is verified; the version DOI and archive checksum will identify the exact files.
+
+**APA — fixed snapshot while DOI publication is pending**
+
+Zhu, L. Q. (2026). *Hotel Corporate Codes: a source-linked corporate-rate code dataset* (1.1.0+snapshot.1a577d8) [Data set]. GitHub. https://github.com/adsorgcn/hotel-corporate-codes/tree/1a577d8f2df5fe8d65a7d22e861e34aa8083c767
+
+**BibTeX — fixed snapshot while DOI publication is pending**
+
+```bibtex
+@dataset{zhu_hotel_corporate_codes_2026,
+  author = {Zhu, Long Quan},
+  title = {Hotel Corporate Codes: a source-linked corporate-rate code dataset},
+  year = {2026},
+  version = {1.1.0+snapshot.1a577d8},
+  publisher = {GitHub},
+  url = {https://github.com/adsorgcn/hotel-corporate-codes/tree/1a577d8f2df5fe8d65a7d22e861e34aa8083c767}
+}
+```
+
+Machine-readable citation: [CITATION.cff](https://github.com/adsorgcn/hotel-corporate-codes/blob/main/CITATION.cff). Prepared archive metadata: [.zenodo.json](https://github.com/adsorgcn/hotel-corporate-codes/blob/main/.zenodo.json).
+
+## References
+
+The dataset description cites the following literature on fixed-tier pricing, rate fences, pricing disclosure and hotel revenue management. Ma and Schwartz examine the limitations of fixed-percentage fenced discounts. The other papers provide related context; the code records were not derived from these papers.
+
+- Jing Ma, Zvi Schwartz (2023). Revenue Analytics: The Problem With Fixed-Tier Pricing. *Cornell Hospitality Quarterly*. [DOI: 10.1177/19389655231152456](https://doi.org/10.1177/19389655231152456).
+- Basak Denizci Guillet, Rob Law, Qu Xiao (2014). Rate Fences in Hotel Revenue Management and Their Applications to Chinese Leisure Travelers: A Fractional Factorial Design Approach. *Cornell Hospitality Quarterly*. [DOI: 10.1177/1938965513507497](https://doi.org/10.1177/1938965513507497).
+- Basak Denizci Guillet, Yuanyuan Guo, Rob Law (2015). Segmenting Hotel Customers Based on Rate Fences Through Conjoint and Cluster Analysis. *Journal of Travel & Tourism Marketing*. [DOI: 10.1080/10548408.2015.1063825](https://doi.org/10.1080/10548408.2015.1063825).
+- Sunmee Choi, Anna S. Mattila (2005). Impact of Information on Customer Fairness Perceptions of Hotel Revenue Management. *Cornell Hotel and Restaurant Administration Quarterly*. [DOI: 10.1177/0010880404270032](https://doi.org/10.1177/0010880404270032).
+- Graziano Abrate, Giampaolo Viglia (2016). Strategic and tactical price decisions in hotel revenue management. *Tourism Management*. [DOI: 10.1016/j.tourman.2016.02.006](https://doi.org/10.1016/j.tourman.2016.02.006).
+
+See [the reference checks](https://github.com/adsorgcn/hotel-corporate-codes/blob/main/docs/ANCHORS.md) for metadata, scope and relation types.
+
+## Further reading
+
+- John Deighton, Stowe Shoemaker (2000). [*Hilton HHonors Worldwide: Loyalty Wars*](https://store.hbr.org/product/hilton-hhonors-worldwide-loyalty-wars/501010). Harvard Business Publishing, case 501010. This loyalty-program case is adjacent reading. No DOI was listed in the inspected official product record, so it is excluded from the DOI relations.
+
+<!-- citation:end -->
+
+<br>
+
 ## Related
 
 - [hotelcorporatecodes.com](https://hotelcorporatecodes.com) — the site this data powers, with per-brand booking steps and an eligibility assistant
