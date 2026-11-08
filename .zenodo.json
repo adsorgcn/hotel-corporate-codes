@@ -1,0 +1,59 @@
+{
+  "upload_type": "dataset",
+  "title": "Hotel Corporate Codes: a source-linked corporate-rate code dataset",
+  "creators": [
+    {
+      "name": "Zhu, Long Quan",
+      "orcid": "0009-0004-4540-8082"
+    }
+  ],
+  "description": "<p>Hotel Corporate Codes contains 290 hotel corporate-rate code records across 10 hotel groups, plus five car-rental records, distributed as JSON and the MIT-licensed npm package @adsorgcn/hotel-corporate-codes. Of the hotel records, 286 were synchronized from HotelCorporateCodes.com; four cite official pages for IHG Global E and Wyndham Access Development, OfferFit, and Passport Unlimited. Unknown fields remain null. Historical discounts and identification reports are not current booking guarantees. A separate maintenance branch publishes reviewed source changes; incorporation into the package and website is a separate step. Data files are fixed at main commit 1a577d8; this archive also includes citation metadata.</p><p lang=\"zh\">Hotel Corporate Codes 收录 10 个酒店集团的 290 条酒店协议价代码，另附 5 条租车记录，以 JSON 和 MIT 许可的 npm 包 @adsorgcn/hotel-corporate-codes 分发。酒店记录中，286 条同步自 HotelCorporateCodes.com；4 条引用 IHG Global E 以及 Wyndham 的 Access Development、OfferFit、Passport Unlimited 官方页面。未知字段保留 null。历史折扣和身份核验报告不构成当前预订保证。独立维护分支发布经复核的来源变更；数据包和网站另行同步。数据文件固定于主线提交 1a577d8；归档另附引文元数据。</p><p>The description cites the works listed as related identifiers. Ma and Schwartz discuss fixed-percentage fenced discounts and their limitations; the other references provide background on hotel rate restrictions, customer segmentation, pricing disclosure and revenue management. The code records were not derived from these papers.</p><p>Snapshot: <a href=\"https://github.com/adsorgcn/hotel-corporate-codes/tree/1a577d8f2df5fe8d65a7d22e861e34aa8083c767\">1a577d8f2df5fe8d65a7d22e861e34aa8083c767</a>. Documentation: <a href=\"https://hotelcorporatecodes.com\">HotelCorporateCodes.com</a>.</p>",
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "hotel corporate rates",
+    "corporate negotiated rates",
+    "rate fences",
+    "fixed-tier pricing",
+    "hotel revenue management",
+    "eligibility",
+    "JSON dataset",
+    "hospitality"
+  ],
+  "version": "1.1.0+doi.1",
+  "related_identifiers": [
+    {
+      "identifier": "10.1177/19389655231152456",
+      "relation": "cites",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1177/1938965513507497",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1080/10548408.2015.1063825",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1177/0010880404270032",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1016/j.tourman.2016.02.006",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://hotelcorporatecodes.com",
+      "relation": "isDocumentedBy"
+    },
+    {
+      "identifier": "https://github.com/adsorgcn/hotel-corporate-codes",
+      "relation": "isSupplementTo"
+    }
+  ]
+}

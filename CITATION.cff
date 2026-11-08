@@ -1,0 +1,97 @@
+cff-version: 1.2.0
+type: dataset
+title: "Hotel Corporate Codes: a source-linked corporate-rate code dataset"
+message: "Cite the fixed snapshot for reproducibility. The production Zenodo DOI will be added after registration."
+authors:
+  - family-names: "Zhu"
+    given-names: "Long Quan"
+    orcid: "https://orcid.org/0009-0004-4540-8082"
+license: MIT
+repository-code: "https://github.com/adsorgcn/hotel-corporate-codes"
+url: "https://hotelcorporatecodes.com"
+version: "1.1.0+doi.1"
+date-released: "2026-11-08"
+abstract: "Hotel Corporate Codes contains 290 hotel corporate-rate code records across 10 hotel groups, plus five car-rental records, distributed as JSON and the MIT-licensed npm package @adsorgcn/hotel-corporate-codes. Of the hotel records, 286 were synchronized from HotelCorporateCodes.com; four cite official pages for IHG Global E and Wyndham Access Development, OfferFit, and Passport Unlimited. Unknown fields remain null. Historical discounts and identification reports are not current booking guarantees. A separate maintenance branch publishes reviewed source changes; incorporation into the package and website is a separate step. Data files are fixed at main commit 1a577d8; this archive also includes citation metadata."
+keywords:
+  - "hotel corporate rates"
+  - "corporate negotiated rates"
+  - "rate fences"
+  - "fixed-tier pricing"
+  - "hotel revenue management"
+  - "eligibility"
+  - "JSON dataset"
+  - "hospitality"
+references:
+  - type: article
+    title: "Revenue Analytics: The Problem With Fixed-Tier Pricing"
+    authors:
+      - family-names: "Ma"
+        given-names: "Jing"
+      - family-names: "Schwartz"
+        given-names: "Zvi"
+    year: 2023
+    doi: "10.1177/19389655231152456"
+    journal: "Cornell Hospitality Quarterly"
+    volume: "64"
+    issue: "3"
+    start: "289"
+    end: "297"
+  - type: article
+    title: "Rate Fences in Hotel Revenue Management and Their Applications to Chinese Leisure Travelers: A Fractional Factorial Design Approach"
+    authors:
+      - family-names: "Denizci Guillet"
+        given-names: "Basak"
+      - family-names: "Law"
+        given-names: "Rob"
+      - family-names: "Xiao"
+        given-names: "Qu"
+    year: 2014
+    doi: "10.1177/1938965513507497"
+    journal: "Cornell Hospitality Quarterly"
+    volume: "55"
+    issue: "2"
+    start: "186"
+    end: "196"
+  - type: article
+    title: "Segmenting Hotel Customers Based on Rate Fences Through Conjoint and Cluster Analysis"
+    authors:
+      - family-names: "Denizci Guillet"
+        given-names: "Basak"
+      - family-names: "Guo"
+        given-names: "Yuanyuan"
+      - family-names: "Law"
+        given-names: "Rob"
+    year: 2015
+    doi: "10.1080/10548408.2015.1063825"
+    journal: "Journal of Travel & Tourism Marketing"
+    volume: "32"
+    issue: "7"
+    start: "835"
+    end: "851"
+  - type: article
+    title: "Impact of Information on Customer Fairness Perceptions of Hotel Revenue Management"
+    authors:
+      - family-names: "Choi"
+        given-names: "Sunmee"
+      - family-names: "Mattila"
+        given-names: "Anna S."
+    year: 2005
+    doi: "10.1177/0010880404270032"
+    journal: "Cornell Hotel and Restaurant Administration Quarterly"
+    volume: "46"
+    issue: "4"
+    start: "444"
+    end: "451"
+  - type: article
+    title: "Strategic and tactical price decisions in hotel revenue management"
+    authors:
+      - family-names: "Abrate"
+        given-names: "Graziano"
+      - family-names: "Viglia"
+        given-names: "Giampaolo"
+    year: 2016
+    doi: "10.1016/j.tourman.2016.02.006"
+    journal: "Tourism Management"
+    volume: "55"
+    start: "123"
+    end: "132"

@@ -1,0 +1,720 @@
+{
+  "checked_on": "2026-11-08",
+  "records": [
+    {
+      "doi": "10.1177/19389655231152456",
+      "accepted": true,
+      "exclusion_reason": null,
+      "handle": {
+        "url": "https://doi.org/api/handles/10.1177/19389655231152456",
+        "http_status": 200,
+        "final_url": "https://doi.org/api/handles/10.1177/19389655231152456",
+        "retrieved_at_utc": "2026-11-08T21:09:16.726687+00:00",
+        "sha256": "4abbee67336870b633d8c20689bc9adbda4ade2b863b97f4f4207ef35e771b4f",
+        "response": {
+          "responseCode": 1,
+          "handle": "10.1177/19389655231152456",
+          "values": [
+            {
+              "index": 1,
+              "type": "URL",
+              "data": {
+                "format": "string",
+                "value": "http://journals.sagepub.com/doi/10.1177/19389655231152456"
+              },
+              "ttl": 86400,
+              "timestamp": "2023-02-08T09:30:47Z"
+            },
+            {
+              "index": 700050,
+              "type": "700050",
+              "data": {
+                "format": "string",
+                "value": "2023062701402400605"
+              },
+              "ttl": 86400,
+              "timestamp": "2023-06-27T08:41:52Z"
+            },
+            {
+              "index": 100,
+              "type": "HS_ADMIN",
+              "data": {
+                "format": "admin",
+                "value": {
+                  "handle": "0.na/10.1177",
+                  "index": 200,
+                  "permissions": "111111110010"
+                }
+              },
+              "ttl": 86400,
+              "timestamp": "2023-02-08T09:30:47Z"
+            },
+            {
+              "index": 1000,
+              "type": "10320/loc",
+              "data": {
+                "format": "string",
+                "value": "<locations chooseby=\"locatt,country,weighted\"><location id=\"0\" href=\"http://journals.sagepub.com/doi/10.1177/19389655231152456\" weight=\"1\" /><location id=\"1\" href=\"https://sage.cnpereading.com/doi/10.1177/19389655231152456\" country=\"CN\" weight=\"0\" /></locations>"
+              },
+              "ttl": 86400,
+              "timestamp": "2026-04-28T16:47:24Z"
+            }
+          ]
+        }
+      },
+      "crossref": {
+        "url": "https://api.crossref.org/works/10.1177/19389655231152456",
+        "http_status": 200,
+        "final_url": "https://api.crossref.org/works/10.1177/19389655231152456",
+        "retrieved_at_utc": "2026-11-08T21:09:16.809709+00:00",
+        "sha256": "ae31c81e9cd2c652269c449c5f83c8b1c23f59e06d30bf05b6015d44a1c84365",
+        "response": {
+          "status": "ok",
+          "message": {
+            "DOI": "10.1177/19389655231152456",
+            "title": [
+              "Revenue Analytics: The Problem With Fixed-Tier Pricing"
+            ],
+            "subtitle": [],
+            "container-title": [
+              "Cornell Hospitality Quarterly"
+            ],
+            "publisher": "SAGE Publications",
+            "type": "journal-article",
+            "published": {
+              "date-parts": [
+                [
+                  2023,
+                  2,
+                  8
+                ]
+              ]
+            },
+            "published-online": {
+              "date-parts": [
+                [
+                  2023,
+                  2,
+                  8
+                ]
+              ]
+            },
+            "published-print": {
+              "date-parts": [
+                [
+                  2023,
+                  8
+                ]
+              ]
+            },
+            "volume": "64",
+            "issue": "3",
+            "page": "289-297",
+            "URL": "https://doi.org/10.1177/19389655231152456",
+            "author": [
+              {
+                "given": "Jing",
+                "family": "Ma"
+              },
+              {
+                "given": "Zvi",
+                "family": "Schwartz"
+              }
+            ]
+          }
+        },
+        "retention_note": "Bibliographic fields selected; sha256 refers to the complete fetched API body before selection."
+      }
+    },
+    {
+      "doi": "10.1177/0010880402434010",
+      "accepted": false,
+      "exclusion_reason": "Crossref canonical DOI differs from requested DOI; candidate not included.",
+      "handle": {
+        "url": "https://doi.org/api/handles/10.1177/0010880402434010",
+        "http_status": 200,
+        "final_url": "https://doi.org/api/handles/10.1177/0010880402434010",
+        "retrieved_at_utc": "2026-11-08T21:09:16.726864+00:00",
+        "sha256": "2fa729a2b82da1a1762a763e90953201e096709a7d0438f4fb07824f64baa56c",
+        "response": {
+          "responseCode": 1,
+          "handle": "10.1177/0010880402434010",
+          "values": [
+            {
+              "index": 1,
+              "type": "URL",
+              "data": {
+                "format": "string",
+                "value": "http://cqx.sagepub.com/cgi/doi/10.1177/0010880402434010"
+              },
+              "ttl": 86400,
+              "timestamp": "2004-09-01T16:11:39Z"
+            },
+            {
+              "index": 700050,
+              "type": "700050",
+              "data": {
+                "format": "string",
+                "value": "1089242219"
+              },
+              "ttl": 86400,
+              "timestamp": "2025-01-25T18:58:41Z"
+            },
+            {
+              "index": 100,
+              "type": "HS_ADMIN",
+              "data": {
+                "format": "admin",
+                "value": {
+                  "handle": "0.na/10.1177",
+                  "index": 200,
+                  "permissions": "111111110010"
+                }
+              },
+              "ttl": 86400,
+              "timestamp": "2025-01-25T18:58:41Z"
+            },
+            {
+              "index": 1000,
+              "type": "10320/loc",
+              "data": {
+                "format": "string",
+                "value": "<locations chooseby=\"locatt,country,weighted\"><location id=\"0\" href=\"http://cqx.sagepub.com/cgi/doi/10.1177/0010880402434010\" weight=\"1\" /><location id=\"1\" href=\"https://sage.cnpereading.com/doi/10.1177/0010880402434010\" country=\"CN\" weight=\"0\" /></locations>"
+              },
+              "ttl": 86400,
+              "timestamp": "2026-04-28T16:46:10Z"
+            }
+          ]
+        }
+      },
+      "crossref": {
+        "url": "https://api.crossref.org/works/10.1177/0010880402434010",
+        "http_status": 200,
+        "final_url": "https://api.crossref.org/works/10.1016/s0010-8804(02)80046-5",
+        "retrieved_at_utc": "2026-11-08T21:09:16.897642+00:00",
+        "sha256": "64678700fc46a7cd94894c4c165d24be37adef7fabe8eb767cbb97f7c3ae8f25",
+        "response": {
+          "status": "ok",
+          "message": {
+            "DOI": "10.1016/s0010-8804(02)80046-5",
+            "title": [
+              "Discounting in the hotel industry: a new approach"
+            ],
+            "subtitle": [],
+            "container-title": [
+              "The Cornell Hotel and Restaurant Administration Quarterly"
+            ],
+            "publisher": "SAGE Publications",
+            "type": "journal-article",
+            "published": {
+              "date-parts": [
+                [
+                  2002,
+                  8
+                ]
+              ]
+            },
+            "published-print": {
+              "date-parts": [
+                [
+                  2002,
+                  8
+                ]
+              ]
+            },
+            "volume": "43",
+            "issue": "4",
+            "page": "94-103",
+            "URL": "https://doi.org/10.1016/s0010-8804(02)80046-5",
+            "author": [
+              {
+                "given": "R",
+                "family": "Hanks"
+              }
+            ]
+          }
+        },
+        "retention_note": "Bibliographic fields selected; sha256 refers to the complete fetched API body before selection."
+      }
+    },
+    {
+      "doi": "10.1177/1938965513507497",
+      "accepted": true,
+      "exclusion_reason": null,
+      "handle": {
+        "url": "https://doi.org/api/handles/10.1177/1938965513507497",
+        "http_status": 200,
+        "final_url": "https://doi.org/api/handles/10.1177/1938965513507497",
+        "retrieved_at_utc": "2026-11-08T21:09:16.755591+00:00",
+        "sha256": "2806e216e3e6b43c4d79dd2bca451e6eb227f5012a67f01dc72ef4c0ba7473e6",
+        "response": {
+          "responseCode": 1,
+          "handle": "10.1177/1938965513507497",
+          "values": [
+            {
+              "index": 1,
+              "type": "URL",
+              "data": {
+                "format": "string",
+                "value": "https://journals.sagepub.com/doi/10.1177/1938965513507497"
+              },
+              "ttl": 86400,
+              "timestamp": "2024-09-09T04:32:43Z"
+            },
+            {
+              "index": 700050,
+              "type": "700050",
+              "data": {
+                "format": "string",
+                "value": "2024090618140800274"
+              },
+              "ttl": 86400,
+              "timestamp": "2024-09-09T04:32:43Z"
+            },
+            {
+              "index": 100,
+              "type": "HS_ADMIN",
+              "data": {
+                "format": "admin",
+                "value": {
+                  "handle": "0.na/10.1177",
+                  "index": 200,
+                  "permissions": "111111110010"
+                }
+              },
+              "ttl": 86400,
+              "timestamp": "2014-03-25T18:31:35Z"
+            },
+            {
+              "index": 1000,
+              "type": "10320/loc",
+              "data": {
+                "format": "string",
+                "value": "<locations chooseby=\"locatt,country,weighted\"><location id=\"0\" href=\"https://journals.sagepub.com/doi/10.1177/1938965513507497\" weight=\"1\" /><location id=\"1\" href=\"https://sage.cnpereading.com/doi/10.1177/1938965513507497\" country=\"CN\" weight=\"0\" /></locations>"
+              },
+              "ttl": 86400,
+              "timestamp": "2026-04-28T16:45:16Z"
+            }
+          ]
+        }
+      },
+      "crossref": {
+        "url": "https://api.crossref.org/works/10.1177/1938965513507497",
+        "http_status": 200,
+        "final_url": "https://api.crossref.org/works/10.1177/1938965513507497",
+        "retrieved_at_utc": "2026-11-08T21:09:16.849667+00:00",
+        "sha256": "264551f4420a6ecabb6c5d49c0bc0dff37706b1e6be8e15b6a3bede1ed9dad16",
+        "response": {
+          "status": "ok",
+          "message": {
+            "DOI": "10.1177/1938965513507497",
+            "title": [
+              "Rate Fences in Hotel Revenue Management and Their Applications to Chinese Leisure Travelers"
+            ],
+            "subtitle": [
+              "A Fractional Factorial Design Approach"
+            ],
+            "container-title": [
+              "Cornell Hospitality Quarterly"
+            ],
+            "publisher": "SAGE Publications",
+            "type": "journal-article",
+            "published": {
+              "date-parts": [
+                [
+                  2013,
+                  11,
+                  28
+                ]
+              ]
+            },
+            "published-online": {
+              "date-parts": [
+                [
+                  2013,
+                  11,
+                  28
+                ]
+              ]
+            },
+            "published-print": {
+              "date-parts": [
+                [
+                  2014,
+                  5
+                ]
+              ]
+            },
+            "volume": "55",
+            "issue": "2",
+            "page": "186-196",
+            "URL": "https://doi.org/10.1177/1938965513507497",
+            "author": [
+              {
+                "given": "Basak",
+                "family": "Denizci Guillet"
+              },
+              {
+                "given": "Rob",
+                "family": "Law"
+              },
+              {
+                "given": "Qu",
+                "family": "Xiao"
+              }
+            ]
+          }
+        },
+        "retention_note": "Bibliographic fields selected; sha256 refers to the complete fetched API body before selection."
+      }
+    },
+    {
+      "doi": "10.1080/10548408.2015.1063825",
+      "accepted": true,
+      "exclusion_reason": null,
+      "handle": {
+        "url": "https://doi.org/api/handles/10.1080/10548408.2015.1063825",
+        "http_status": 200,
+        "final_url": "https://doi.org/api/handles/10.1080/10548408.2015.1063825",
+        "retrieved_at_utc": "2026-11-08T21:09:16.871747+00:00",
+        "sha256": "61f83afc0332749ab02ebfc97529550de195e65e08b2b42d315572b2b29546a3",
+        "response": {
+          "responseCode": 1,
+          "handle": "10.1080/10548408.2015.1063825",
+          "values": [
+            {
+              "index": 1,
+              "type": "URL",
+              "data": {
+                "format": "string",
+                "value": "http://www.tandfonline.com/doi/full/10.1080/10548408.2015.1063825"
+              },
+              "ttl": 86400,
+              "timestamp": "2015-08-27T13:34:24Z"
+            },
+            {
+              "index": 700050,
+              "type": "700050",
+              "data": {
+                "format": "string",
+                "value": "2015100921445300263"
+              },
+              "ttl": 86400,
+              "timestamp": "2015-10-10T04:47:02Z"
+            },
+            {
+              "index": 100,
+              "type": "HS_ADMIN",
+              "data": {
+                "format": "admin",
+                "value": {
+                  "handle": "0.na/10.1080",
+                  "index": 200,
+                  "permissions": "111111110010"
+                }
+              },
+              "ttl": 86400,
+              "timestamp": "2015-08-27T13:34:24Z"
+            }
+          ]
+        }
+      },
+      "crossref": {
+        "url": "https://api.crossref.org/works/10.1080/10548408.2015.1063825",
+        "http_status": 200,
+        "final_url": "https://api.crossref.org/works/10.1080/10548408.2015.1063825",
+        "retrieved_at_utc": "2026-11-08T21:09:16.949545+00:00",
+        "sha256": "ac0c9c7a43f82d695f972033c9aafffb3970c081bdb8bd9b1308c20d9f5a434f",
+        "response": {
+          "status": "ok",
+          "message": {
+            "DOI": "10.1080/10548408.2015.1063825",
+            "title": [
+              "Segmenting Hotel Customers Based on Rate Fences Through Conjoint and Cluster Analysis"
+            ],
+            "subtitle": [],
+            "container-title": [
+              "Journal of Travel &amp; Tourism Marketing"
+            ],
+            "publisher": "Informa UK Limited",
+            "type": "journal-article",
+            "published": {
+              "date-parts": [
+                [
+                  2015,
+                  8,
+                  27
+                ]
+              ]
+            },
+            "published-online": {
+              "date-parts": [
+                [
+                  2015,
+                  8,
+                  27
+                ]
+              ]
+            },
+            "published-print": {
+              "date-parts": [
+                [
+                  2015,
+                  10,
+                  3
+                ]
+              ]
+            },
+            "volume": "32",
+            "issue": "7",
+            "page": "835-851",
+            "URL": "https://doi.org/10.1080/10548408.2015.1063825",
+            "author": [
+              {
+                "given": "Basak",
+                "family": "Denizci Guillet"
+              },
+              {
+                "given": "Yuanyuan",
+                "family": "Guo"
+              },
+              {
+                "given": "Rob",
+                "family": "Law"
+              }
+            ]
+          }
+        },
+        "retention_note": "Bibliographic fields selected; sha256 refers to the complete fetched API body before selection."
+      }
+    },
+    {
+      "doi": "10.1177/0010880404270032",
+      "accepted": true,
+      "exclusion_reason": null,
+      "handle": {
+        "url": "https://doi.org/api/handles/10.1177/0010880404270032",
+        "http_status": 200,
+        "final_url": "https://doi.org/api/handles/10.1177/0010880404270032",
+        "retrieved_at_utc": "2026-11-08T21:09:16.924393+00:00",
+        "sha256": "c7e15a3f92a20f7717c4613580a91e849bbd8d344c25c6fa271bb91a1a802d1a",
+        "response": {
+          "responseCode": 1,
+          "handle": "10.1177/0010880404270032",
+          "values": [
+            {
+              "index": 1,
+              "type": "URL",
+              "data": {
+                "format": "string",
+                "value": "https://journals.sagepub.com/doi/10.1177/0010880404270032"
+              },
+              "ttl": 86400,
+              "timestamp": "2024-09-25T19:21:00Z"
+            },
+            {
+              "index": 700050,
+              "type": "700050",
+              "data": {
+                "format": "string",
+                "value": "2024092500372200979"
+              },
+              "ttl": 86400,
+              "timestamp": "2024-09-25T19:21:00Z"
+            },
+            {
+              "index": 100,
+              "type": "HS_ADMIN",
+              "data": {
+                "format": "admin",
+                "value": {
+                  "handle": "0.na/10.1177",
+                  "index": 200,
+                  "permissions": "111111110010"
+                }
+              },
+              "ttl": 86400,
+              "timestamp": "2017-07-09T09:59:04Z"
+            },
+            {
+              "index": 1000,
+              "type": "10320/loc",
+              "data": {
+                "format": "string",
+                "value": "<locations chooseby=\"locatt,country,weighted\"><location id=\"0\" href=\"https://journals.sagepub.com/doi/10.1177/0010880404270032\" weight=\"1\" /><location id=\"1\" href=\"https://sage.cnpereading.com/doi/10.1177/0010880404270032\" country=\"CN\" weight=\"0\" /></locations>"
+              },
+              "ttl": 86400,
+              "timestamp": "2026-04-28T16:46:36Z"
+            }
+          ]
+        }
+      },
+      "crossref": {
+        "url": "https://api.crossref.org/works/10.1177/0010880404270032",
+        "http_status": 200,
+        "final_url": "https://api.crossref.org/works/10.1177/0010880404270032",
+        "retrieved_at_utc": "2026-11-08T21:09:17.024168+00:00",
+        "sha256": "46e1bf8b9166201064540e5f595408e8bb75d72215a4b71443419f75911a00f3",
+        "response": {
+          "status": "ok",
+          "message": {
+            "DOI": "10.1177/0010880404270032",
+            "title": [
+              "Impact of Information on Customer Fairness Perceptions of Hotel Revenue Management"
+            ],
+            "subtitle": [],
+            "container-title": [
+              "Cornell Hotel and Restaurant Administration Quarterly"
+            ],
+            "publisher": "SAGE Publications",
+            "type": "journal-article",
+            "published": {
+              "date-parts": [
+                [
+                  2005,
+                  11
+                ]
+              ]
+            },
+            "published-online": {
+              "date-parts": [
+                [
+                  2005,
+                  11,
+                  1
+                ]
+              ]
+            },
+            "published-print": {
+              "date-parts": [
+                [
+                  2005,
+                  11
+                ]
+              ]
+            },
+            "volume": "46",
+            "issue": "4",
+            "page": "444-451",
+            "URL": "https://doi.org/10.1177/0010880404270032",
+            "author": [
+              {
+                "given": "Sunmee",
+                "family": "Choi"
+              },
+              {
+                "given": "Anna S.",
+                "family": "Mattila"
+              }
+            ]
+          }
+        },
+        "retention_note": "Bibliographic fields selected; sha256 refers to the complete fetched API body before selection."
+      }
+    },
+    {
+      "doi": "10.1016/j.tourman.2016.02.006",
+      "accepted": true,
+      "exclusion_reason": null,
+      "handle": {
+        "url": "https://doi.org/api/handles/10.1016/j.tourman.2016.02.006",
+        "http_status": 200,
+        "final_url": "https://doi.org/api/handles/10.1016/j.tourman.2016.02.006",
+        "retrieved_at_utc": "2026-11-08T21:09:17.041849+00:00",
+        "sha256": "799016748ac12baeff7eee84af8782f459a9a2dd351bbe08af88d2fa3bec219c",
+        "response": {
+          "responseCode": 1,
+          "handle": "10.1016/j.tourman.2016.02.006",
+          "values": [
+            {
+              "index": 1,
+              "type": "URL",
+              "data": {
+                "format": "string",
+                "value": "https://linkinghub.elsevier.com/retrieve/pii/S0261517716300188"
+              },
+              "ttl": 86400,
+              "timestamp": "2018-09-14T23:28:41Z"
+            },
+            {
+              "index": 700050,
+              "type": "700050",
+              "data": {
+                "format": "string",
+                "value": "20160428152054000"
+              },
+              "ttl": 86400,
+              "timestamp": "2016-04-30T20:04:17Z"
+            },
+            {
+              "index": 100,
+              "type": "HS_ADMIN",
+              "data": {
+                "format": "admin",
+                "value": {
+                  "handle": "0.na/10.1016",
+                  "index": 200,
+                  "permissions": "111111110010"
+                }
+              },
+              "ttl": 86400,
+              "timestamp": "2016-02-23T19:15:46Z"
+            }
+          ]
+        }
+      },
+      "crossref": {
+        "url": "https://api.crossref.org/works/10.1016/j.tourman.2016.02.006",
+        "http_status": 200,
+        "final_url": "https://api.crossref.org/works/10.1016/j.tourman.2016.02.006",
+        "retrieved_at_utc": "2026-11-08T21:09:17.134716+00:00",
+        "sha256": "964d9fb6d041234f7c467445981737e4abe8c0962cea517313f3a1dd611032a8",
+        "response": {
+          "status": "ok",
+          "message": {
+            "DOI": "10.1016/j.tourman.2016.02.006",
+            "title": [
+              "Strategic and tactical price decisions in hotel revenue management"
+            ],
+            "subtitle": [],
+            "container-title": [
+              "Tourism Management"
+            ],
+            "publisher": "Elsevier BV",
+            "type": "journal-article",
+            "published": {
+              "date-parts": [
+                [
+                  2016,
+                  8
+                ]
+              ]
+            },
+            "published-print": {
+              "date-parts": [
+                [
+                  2016,
+                  8
+                ]
+              ]
+            },
+            "volume": "55",
+            "page": "123-132",
+            "URL": "https://doi.org/10.1016/j.tourman.2016.02.006",
+            "author": [
+              {
+                "given": "Graziano",
+                "family": "Abrate"
+              },
+              {
+                "given": "Giampaolo",
+                "family": "Viglia"
+              }
+            ]
+          }
+        },
+        "retention_note": "Bibliographic fields selected; sha256 refers to the complete fetched API body before selection."
+      }
+    }
+  ]
+}

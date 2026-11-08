@@ -1,0 +1,353 @@
+{
+  "checked_on": "2026-11-08",
+  "records": [
+    {
+      "doi": "10.1177/19389655231152456",
+      "title": "Revenue Analytics: The Problem With Fixed-Tier Pricing",
+      "journal": "Cornell Hospitality Quarterly",
+      "year": 2023,
+      "authors": [
+        {
+          "given": "Jing",
+          "family": "Ma"
+        },
+        {
+          "given": "Zvi",
+          "family": "Schwartz"
+        }
+      ],
+      "volume": "64",
+      "issue": "3",
+      "pages": "289-297",
+      "type": "article",
+      "crossref_type": "journal-article",
+      "checked_on": "2026-11-08",
+      "handle_url": "https://doi.org/api/handles/10.1177/19389655231152456",
+      "handle_http_status": 200,
+      "handle_response_code": 1,
+      "crossref_url": "https://api.crossref.org/works/10.1177/19389655231152456",
+      "crossref_http_status": 200,
+      "doi_matches_crossref": true,
+      "date_fields": {
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              2,
+              8
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              2,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              8
+            ]
+          ]
+        }
+      },
+      "relation": "cites",
+      "why_zh": "解释固定比例围栏折扣与逐客群定价的区别；该文指出固定层级定价可能次优，不能据此承诺协议码优惠或定价效果。",
+      "why_en": "Explains fixed-percentage fenced discounts and their limitations; it does not establish savings or validate any code in this dataset.",
+      "primary_source": "https://udspace.udel.edu/server/api/core/bitstreams/395bec67-d12b-4c50-992d-bde878ca4191/content",
+      "peer_review_source": "https://in.sagepub.com/en-in/ind/journal/cornell-hospitality-quarterly",
+      "scope": "hotel fixed-tier and fenced-rate pricing"
+    },
+    {
+      "doi": "10.1177/1938965513507497",
+      "title": "Rate Fences in Hotel Revenue Management and Their Applications to Chinese Leisure Travelers: A Fractional Factorial Design Approach",
+      "journal": "Cornell Hospitality Quarterly",
+      "year": 2014,
+      "authors": [
+        {
+          "given": "Basak",
+          "family": "Denizci Guillet"
+        },
+        {
+          "given": "Rob",
+          "family": "Law"
+        },
+        {
+          "given": "Qu",
+          "family": "Xiao"
+        }
+      ],
+      "volume": "55",
+      "issue": "2",
+      "pages": "186-196",
+      "type": "article",
+      "crossref_type": "journal-article",
+      "checked_on": "2026-11-08",
+      "handle_url": "https://doi.org/api/handles/10.1177/1938965513507497",
+      "handle_http_status": 200,
+      "handle_response_code": 1,
+      "crossref_url": "https://api.crossref.org/works/10.1177/1938965513507497",
+      "crossref_http_status": 200,
+      "doi_matches_crossref": true,
+      "date_fields": {
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              11,
+              28
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2013,
+              11,
+              28
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              5
+            ]
+          ]
+        }
+      },
+      "relation": "references",
+      "why_zh": "研究酒店价格限制、预订条件和退款条件的取舍，为把代码资格与价格条件分开记录提供背景。",
+      "why_en": "Provides background on hotel rate restrictions, advance booking and refundability; it is not evidence about individual corporate codes.",
+      "primary_source": "https://journals.sagepub.com/doi/10.1177/1938965513507497",
+      "peer_review_source": "https://in.sagepub.com/en-in/ind/journal/cornell-hospitality-quarterly",
+      "scope": "hotel rate fences",
+      "year_note": "Use the 2014 issue year; online publication was 2013-11-28. Both dates appear in Crossref and the publisher record."
+    },
+    {
+      "doi": "10.1080/10548408.2015.1063825",
+      "title": "Segmenting Hotel Customers Based on Rate Fences Through Conjoint and Cluster Analysis",
+      "journal": "Journal of Travel & Tourism Marketing",
+      "year": 2015,
+      "authors": [
+        {
+          "given": "Basak",
+          "family": "Denizci Guillet"
+        },
+        {
+          "given": "Yuanyuan",
+          "family": "Guo"
+        },
+        {
+          "given": "Rob",
+          "family": "Law"
+        }
+      ],
+      "volume": "32",
+      "issue": "7",
+      "pages": "835-851",
+      "type": "article",
+      "crossref_type": "journal-article",
+      "checked_on": "2026-11-08",
+      "handle_url": "https://doi.org/api/handles/10.1080/10548408.2015.1063825",
+      "handle_http_status": 200,
+      "handle_response_code": 1,
+      "crossref_url": "https://api.crossref.org/works/10.1080/10548408.2015.1063825",
+      "crossref_http_status": 200,
+      "doi_matches_crossref": true,
+      "date_fields": {
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              8,
+              27
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2015,
+              8,
+              27
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2015,
+              10,
+              3
+            ]
+          ]
+        }
+      },
+      "relation": "references",
+      "why_zh": "以房价与价格围栏划分酒店客群，为资格、限制与客群不能混作统一优惠的描述提供背景。",
+      "why_en": "Shows how hotel customers can be segmented by prices and rate fences, providing context for recording restrictions separately from code strings.",
+      "primary_source": "https://research.polyu.edu.hk/en/publications/segmenting-hotel-customers-based-on-rate-fences-through-conjoint-/",
+      "peer_review_source": "https://research.polyu.edu.hk/en/publications/segmenting-hotel-customers-based-on-rate-fences-through-conjoint-/",
+      "scope": "hotel customer segmentation and rate fences"
+    },
+    {
+      "doi": "10.1177/0010880404270032",
+      "title": "Impact of Information on Customer Fairness Perceptions of Hotel Revenue Management",
+      "journal": "Cornell Hotel and Restaurant Administration Quarterly",
+      "year": 2005,
+      "authors": [
+        {
+          "given": "Sunmee",
+          "family": "Choi"
+        },
+        {
+          "given": "Anna S.",
+          "family": "Mattila"
+        }
+      ],
+      "volume": "46",
+      "issue": "4",
+      "pages": "444-451",
+      "type": "article",
+      "crossref_type": "journal-article",
+      "checked_on": "2026-11-08",
+      "handle_url": "https://doi.org/api/handles/10.1177/0010880404270032",
+      "handle_http_status": 200,
+      "handle_response_code": 1,
+      "crossref_url": "https://api.crossref.org/works/10.1177/0010880404270032",
+      "crossref_http_status": 200,
+      "doi_matches_crossref": true,
+      "date_fields": {
+        "published": {
+          "date-parts": [
+            [
+              2005,
+              11
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2005,
+              11,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2005,
+              11
+            ]
+          ]
+        }
+      },
+      "relation": "references",
+      "why_zh": "研究说明酒店定价条件与顾客公平感之间的关系，为明确披露资格和限制条件提供背景。",
+      "why_en": "Provides context on disclosure of hotel pricing conditions and perceived fairness, supporting clear descriptions of eligibility and restrictions.",
+      "primary_source": "https://journals.sagepub.com/doi/abs/10.1177/0010880404270032",
+      "peer_review_source": "https://in.sagepub.com/en-in/ind/journal/cornell-hospitality-quarterly",
+      "scope": "hotel revenue management and pricing disclosure"
+    },
+    {
+      "doi": "10.1016/j.tourman.2016.02.006",
+      "title": "Strategic and tactical price decisions in hotel revenue management",
+      "journal": "Tourism Management",
+      "year": 2016,
+      "authors": [
+        {
+          "given": "Graziano",
+          "family": "Abrate"
+        },
+        {
+          "given": "Giampaolo",
+          "family": "Viglia"
+        }
+      ],
+      "volume": "55",
+      "issue": null,
+      "pages": "123-132",
+      "type": "article",
+      "crossref_type": "journal-article",
+      "checked_on": "2026-11-08",
+      "handle_url": "https://doi.org/api/handles/10.1016/j.tourman.2016.02.006",
+      "handle_http_status": 200,
+      "handle_response_code": 1,
+      "crossref_url": "https://api.crossref.org/works/10.1016/j.tourman.2016.02.006",
+      "crossref_http_status": 200,
+      "doi_matches_crossref": true,
+      "date_fields": {
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              8
+            ]
+          ]
+        }
+      },
+      "relation": "references",
+      "why_zh": "讨论酒店价格的战略与短期情境因素，为代码目录不等于实时房价或可订承诺提供收益管理背景。",
+      "why_en": "Provides hotel revenue-management context on strategic and short-term pricing factors; a code directory alone does not specify a live room price.",
+      "primary_source": "https://researchportal.port.ac.uk/en/publications/strategic-and-tactical-price-decisions-in-hotel-revenue-managemen/",
+      "peer_review_source": "https://researchportal.port.ac.uk/en/publications/strategic-and-tactical-price-decisions-in-hotel-revenue-managemen/",
+      "scope": "hotel revenue management and dynamic pricing"
+    }
+  ],
+  "further_reading": [
+    {
+      "title": "Hilton HHonors Worldwide: Loyalty Wars",
+      "authors": [
+        {
+          "given": "John",
+          "family": "Deighton"
+        },
+        {
+          "given": "Stowe",
+          "family": "Shoemaker"
+        }
+      ],
+      "publisher": "Harvard Business Publishing",
+      "source": "Harvard Business School",
+      "publication_date": "2000-10-12",
+      "year": 2000,
+      "product_id": "501010",
+      "url": "https://store.hbr.org/product/hilton-hhonors-worldwide-loyalty-wars/501010",
+      "doi": null,
+      "doi_note": "No DOI is listed in the official product record inspected. Not included in DOI relations.",
+      "why_zh": "忠诚度与常客营销案例，属于酒店客群管理的相邻主题，只作延伸阅读。",
+      "checked_on": "2026-11-08",
+      "http_status": 200
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "doi_requested": "10.1177/0010880402434010",
+      "doi_returned": "10.1016/s0010-8804(02)80046-5",
+      "reason": "Crossref canonical DOI differs from requested DOI; candidate not included.",
+      "title_returned": "Discounting in the hotel industry: a new approach",
+      "handle_http_status": 200,
+      "handle_response_code": 1,
+      "crossref_http_status": 200,
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "scope_note": "These works are conceptual/background references. Dataset records were not derived from these papers. No publication author is a dataset creator or contributor."
+}
