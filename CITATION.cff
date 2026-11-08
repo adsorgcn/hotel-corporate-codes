@@ -1,7 +1,8 @@
 cff-version: 1.2.0
 type: dataset
 title: "Hotel Corporate Codes: a source-linked corporate-rate code dataset"
-message: "Cite the fixed snapshot for reproducibility. The production Zenodo DOI will be added after registration."
+message: "Cite this dataset using the concept DOI below. For reproducibility, use the version DOI linked in the README."
+doi: "10.5281/zenodo.24061853"
 authors:
   - family-names: "Zhu"
     given-names: "Long Quan"
