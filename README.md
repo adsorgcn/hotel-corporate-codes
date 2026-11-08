@@ -55,7 +55,7 @@ codes.getBrand('hyatt');           // the 18 Hyatt records
 codes.totalCodes;                  // 290
 ```
 
-Just browsing? [hotelcorporatecodes.com](https://hotelcorporatecodes.com) renders this data with booking steps per brand, and its assistant answers questions about eligibility.
+Just browsing? Explore the [GitHub Pages collection](https://adsorgcn.github.io/hotel-corporate-codes/) for searchable hotel and car-rental records. [hotelcorporatecodes.com](https://hotelcorporatecodes.com) provides booking steps per brand, and its assistant answers questions about eligibility.
 
 <br>
 
