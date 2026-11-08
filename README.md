@@ -594,28 +594,29 @@ npm run build:readme     # regenerate the tables above from data/
 
 ## Cite this dataset
 
-![Zenodo publication pending](https://img.shields.io/badge/Zenodo-DOI%20pending-777777?style=flat-square)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24061853.svg)](https://doi.org/10.5281/zenodo.24061853)
 
-A production Zenodo DOI has not been minted. This citation currently identifies the fixed data snapshot. The citation-metadata release is 1.1.0+doi.1. The all-versions concept DOI will be added after registration is verified; the version DOI and archive checksum will identify the exact files.
+The concept DOI identifies this dataset across versions. The archived release is **1.1.0+doi.1**, with data files fixed at [commit 1a577d8](https://github.com/adsorgcn/hotel-corporate-codes/tree/1a577d8f2df5fe8d65a7d22e861e34aa8083c767). For reproducibility, use the [version DOI 10.5281/zenodo.24061854](https://doi.org/10.5281/zenodo.24061854) and download the archive from [Zenodo](https://zenodo.org/records/24061854).
 
-**APA — fixed snapshot while DOI publication is pending**
+**APA**
 
-Zhu, L. Q. (2026). *Hotel Corporate Codes: a source-linked corporate-rate code dataset* (1.1.0+snapshot.1a577d8) [Data set]. GitHub. https://github.com/adsorgcn/hotel-corporate-codes/tree/1a577d8f2df5fe8d65a7d22e861e34aa8083c767
+Zhu, L. Q. (2026). *Hotel Corporate Codes: a source-linked corporate-rate code dataset* (1.1.0+doi.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24061853
 
-**BibTeX — fixed snapshot while DOI publication is pending**
+**BibTeX**
 
 ```bibtex
 @dataset{zhu_hotel_corporate_codes_2026,
   author = {Zhu, Long Quan},
   title = {Hotel Corporate Codes: a source-linked corporate-rate code dataset},
   year = {2026},
-  version = {1.1.0+snapshot.1a577d8},
-  publisher = {GitHub},
-  url = {https://github.com/adsorgcn/hotel-corporate-codes/tree/1a577d8f2df5fe8d65a7d22e861e34aa8083c767}
+  version = {1.1.0+doi.1},
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.24061853},
+  url = {https://doi.org/10.5281/zenodo.24061853}
 }
 ```
 
-Machine-readable citation: [CITATION.cff](https://github.com/adsorgcn/hotel-corporate-codes/blob/main/CITATION.cff). Prepared archive metadata: [.zenodo.json](https://github.com/adsorgcn/hotel-corporate-codes/blob/main/.zenodo.json).
+Machine-readable citation: [CITATION.cff](https://github.com/adsorgcn/hotel-corporate-codes/blob/main/CITATION.cff). Archive metadata: [.zenodo.json](https://github.com/adsorgcn/hotel-corporate-codes/blob/main/.zenodo.json).
 
 ## References
 
@@ -641,7 +642,7 @@ See [the reference checks](https://github.com/adsorgcn/hotel-corporate-codes/blo
 
 - [hotelcorporatecodes.com](https://hotelcorporatecodes.com) — the site this data powers, with per-brand booking steps and an eligibility assistant
 - [Hotel Corporate Codes on YouTube](https://www.youtube.com/@hotelcorporatecodes) — short videos on eligibility, booking and what to check, from the same team
-- [I-Lang Protocol](https://ilang.ai) — the AI-native format the site's machine-readable index is written in
+- [iLang Protocol](https://ilang.ai) — the AI-native format the site's machine-readable index is written in
 
 <br>
 
