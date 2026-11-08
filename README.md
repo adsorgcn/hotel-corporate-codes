@@ -575,6 +575,7 @@ Short explainers on the [Hotel Corporate Codes](https://www.youtube.com/@hotelco
 
 - **Site mirror.** 286 of the 290 hotel records match what [hotelcorporatecodes.com](https://hotelcorporatecodes.com) serves through its public `/api/agent/codes` endpoint. The other 4 (IHG Global E; Wyndham Access Development, OfferFit and Passport Unlimited) come from official pages through the data releases below and are not on the site yet. Discount ranges, regions and ID notes on the original 123 records are traveller reports collected over years; the newer records carry `null` until someone reports.
 - **Evidence-graded releases.** Codes added with an official source are published as tagged releases `data-v1.0.N` on the [`hotel-data-maintenance`](https://github.com/adsorgcn/hotel-corporate-codes/tree/hotel-data-maintenance) branch, each with the source URL and the month it was checked.
+- **Separate citation archives.** Daily data releases and reviewed Zenodo snapshots use separate publishing paths. See the [archiving process](https://github.com/adsorgcn/hotel-corporate-codes/blob/main/docs/ARCHIVING.md).
 - **No fabrication.** The test suite rejects records that are missing fields, duplicate a code within a brand, carry a malformed `verified` month or a non-HTTPS `source`. `npm run build:readme -- --check` fails if these tables drift from the JSON.
 
 <br>
