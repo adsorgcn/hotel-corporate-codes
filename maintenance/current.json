@@ -1,5 +1,5 @@
 {
-  "data_version": "1.0.7",
+  "data_version": "1.0.8",
   "evidence": [
     {
       "content_sha256": "08f7b141e5cd116493b163d0333c6977b43c0f6d7159eb6f5748088f31d5fa70",
@@ -3117,6 +3117,27 @@
         "legacy.idRequired",
         "legacy.note",
         "legacy.verified"
+      ]
+    },
+    {
+      "content_sha256": "360fdf61bc61b7edc5714d7fcbd01e6495022f15c3ab26fb43847c6d18c2ea56",
+      "evidence_id": "e_7d62d0cb495e14176b31e046",
+      "independence_group": null,
+      "independence_review": null,
+      "observed_at": "2026-11-10T01:00:32Z",
+      "published_at": null,
+      "publisher": "www.wyndhamhotels.com",
+      "short_excerpt": "Stay must be booked through this website or by calling the phone number above and mention your membership at the time of reservation. Proof of",
+      "source_type": "brand",
+      "source_url": "https://www.wyndhamhotels.com/hotel-deals/passport",
+      "supported_claims": [
+        {
+          "field": "scope",
+          "value": "Stay must be booked through this website or by calling 877-670-7088 and mentioning membership at the time of reservation; offer not valid if hotel is called directly; cannot be combined with any other discounts, offers, group rates, or special promotions."
+        }
+      ],
+      "supported_fields": [
+        "scope"
       ]
     },
     {
@@ -14413,26 +14434,27 @@
         },
         {
           "evidence_ids": [
-            "e_37a67d2849d83bc4052b32bc"
+            "e_7d62d0cb495e14176b31e046"
           ],
           "evidence_level": "source_confirmed",
           "field": "scope",
-          "value": "Participating hotels, subject to availability; blackout dates and certain restrictions may apply. Stay must be booked through this website or by calling the phone number above and mentioning membership at the time of reservation. Not valid if the hotel is called directly."
+          "value": "Stay must be booked through this website or by calling 877-670-7088 and mentioning membership at the time of reservation; offer not valid if hotel is called directly; cannot be combined with any other discounts, offers, group rates, or special promotions."
         }
       ],
       "code": "8000002970",
       "company": "Passport Unlimited",
-      "content_changed_at": "2026-11-02T01:02:34Z",
+      "content_changed_at": "2026-11-10T01:01:17Z",
       "eligibility": "Passport members; discount automatically applied when searching for dates and destination from this page, or by calling 877-670-7088 and giving corporate code 8000002970. Proof of membership must be presented upon check-in.",
       "evidence_ids": [
         "e_204dab827dce1fd2c71e96dc",
-        "e_37a67d2849d83bc4052b32bc"
+        "e_37a67d2849d83bc4052b32bc",
+        "e_7d62d0cb495e14176b31e046"
       ],
       "evidence_level": "source_confirmed",
       "first_seen_at": "2026-09-10T04:18:52Z",
       "lifecycle_status": "listed",
       "record_id": "r_d572e7b6172509acbb92f983",
-      "scope": "Participating hotels, subject to availability; blackout dates and certain restrictions may apply. Stay must be booked through this website or by calling the phone number above and mentioning membership at the time of reservation. Not valid if the hotel is called directly.",
+      "scope": "Stay must be booked through this website or by calling 877-670-7088 and mentioning membership at the time of reservation; offer not valid if hotel is called directly; cannot be combined with any other discounts, offers, group rates, or special promotions.",
       "valid_from": null,
       "valid_until": null
     },
