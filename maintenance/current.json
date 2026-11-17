@@ -1,5 +1,5 @@
 {
-  "data_version": "1.0.8",
+  "data_version": "1.0.9",
   "evidence": [
     {
       "content_sha256": "08f7b141e5cd116493b163d0333c6977b43c0f6d7159eb6f5748088f31d5fa70",
@@ -546,6 +546,37 @@
         "legacy.idRequired",
         "legacy.note",
         "legacy.verified"
+      ]
+    },
+    {
+      "content_sha256": "0c63d95e07ab3b48a9c89a9e29070b4c081cc3fd45749cbe36db302c6f34da03",
+      "evidence_id": "e_124b06b32e42609626c491fc",
+      "independence_group": null,
+      "independence_review": null,
+      "observed_at": "2026-11-17T01:00:38Z",
+      "published_at": null,
+      "publisher": "www.acg.aaa.com",
+      "short_excerpt": "The Offer is 10% off BAR. During special promotional periods, a higher discount may be offered. *Offer valid only for AAA/CAA members who are in",
+      "source_type": "agreement_issuer",
+      "source_url": "https://www.acg.aaa.com/travel/hotels/choice-hotels.html",
+      "supported_claims": [
+        {
+          "field": "discount",
+          "value": "Offer is 10% off BAR (Best Available Rate); during special promotional periods a higher discount may be offered."
+        },
+        {
+          "field": "eligibility",
+          "value": "Valid only for AAA/CAA members in good standing at time of reservation and check-in; proof of AAA membership must be provided upon request at check-in."
+        },
+        {
+          "field": "scope",
+          "value": "Valid at all participating Choice hotels, excluding Choice Hotels in Norway, Sweden, Denmark, Finland, Iceland, Lithuania, Estonia, and Latvia and all WoodSpring brand hotels; not valid for existing reservations or groups and may not be combined with other promotions."
+        }
+      ],
+      "supported_fields": [
+        "discount",
+        "eligibility",
+        "scope"
       ]
     },
     {
@@ -14159,19 +14190,19 @@
       "claims": [
         {
           "evidence_ids": [
-            "e_c2d721afc8e841810533390c"
+            "e_124b06b32e42609626c491fc"
           ],
           "evidence_level": "source_confirmed",
           "field": "discount",
-          "value": "Members save 10% or more with AAA rates at Choice Hotels."
+          "value": "Offer is 10% off BAR (Best Available Rate); during special promotional periods a higher discount may be offered."
         },
         {
           "evidence_ids": [
-            "e_c2d721afc8e841810533390c"
+            "e_124b06b32e42609626c491fc"
           ],
           "evidence_level": "source_confirmed",
           "field": "eligibility",
-          "value": "The 10% or more Choice Hotels AAA rate is available to AAA members."
+          "value": "Valid only for AAA/CAA members in good standing at time of reservation and check-in; proof of AAA membership must be provided upon request at check-in."
         },
         {
           "evidence_ids": [
@@ -14228,14 +14259,23 @@
           "evidence_level": "legacy_unverified",
           "field": "legacy.verified",
           "value": "2026-01"
+        },
+        {
+          "evidence_ids": [
+            "e_124b06b32e42609626c491fc"
+          ],
+          "evidence_level": "source_confirmed",
+          "field": "scope",
+          "value": "Valid at all participating Choice hotels, excluding Choice Hotels in Norway, Sweden, Denmark, Finland, Iceland, Lithuania, Estonia, and Latvia and all WoodSpring brand hotels; not valid for existing reservations or groups and may not be combined with other promotions."
         }
       ],
       "code": "AAA",
       "company": "AAA",
-      "content_changed_at": "2026-10-24T01:03:12Z",
-      "eligibility": "The 10% or more Choice Hotels AAA rate is available to AAA members.",
+      "content_changed_at": "2026-11-17T01:01:05Z",
+      "eligibility": "Valid only for AAA/CAA members in good standing at time of reservation and check-in; proof of AAA membership must be provided upon request at check-in.",
       "evidence_ids": [
         "e_0b80ce560b4a7d525f7f7b94",
+        "e_124b06b32e42609626c491fc",
         "e_55e0d49cfc05a68fba0133d4",
         "e_c2d721afc8e841810533390c"
       ],
@@ -14243,7 +14283,7 @@
       "first_seen_at": "2026-09-10T04:11:47Z",
       "lifecycle_status": "listed",
       "record_id": "r_d210630d7df0580d86b2a050",
-      "scope": null,
+      "scope": "Valid at all participating Choice hotels, excluding Choice Hotels in Norway, Sweden, Denmark, Finland, Iceland, Lithuania, Estonia, and Latvia and all WoodSpring brand hotels; not valid for existing reservations or groups and may not be combined with other promotions.",
       "valid_from": null,
       "valid_until": null
     },
