@@ -1,5 +1,5 @@
 {
-  "data_version": "1.0.9",
+  "data_version": "1.0.10",
   "evidence": [
     {
       "content_sha256": "08f7b141e5cd116493b163d0333c6977b43c0f6d7159eb6f5748088f31d5fa70",
@@ -4219,6 +4219,47 @@
         "legacy.idRequired",
         "legacy.note",
         "legacy.verified"
+      ]
+    },
+    {
+      "content_sha256": "eb613717f2c8e8674ad70e5d06771e3d34d48b1e5b85440a06ba4f3fd31984bd",
+      "evidence_id": "e_a49f2ed7fb62c1f85885aa91",
+      "independence_group": null,
+      "independence_review": null,
+      "observed_at": "2026-11-27T01:01:07Z",
+      "published_at": null,
+      "publisher": "www.wyndhamhotels.com",
+      "short_excerpt": "provide corporate code 1000012794 Aya Healthcare Member Discount | Wyndham Hotels & Resorts Stays from 1-13 consecutive nights that are booked in accordance with these",
+      "source_type": "brand",
+      "source_url": "https://www.wyndhamhotels.com/hotel-deals/aya-healthcare-discount?lightbox=%2Fcontent%2Fwhg-ecomm-responsive%2Fen-us%2Fwhg%2Fabout-us%2Finternational-travel-rules-more-info.display.html",
+      "supported_claims": [
+        {
+          "field": "code",
+          "value": "1000012794"
+        },
+        {
+          "field": "company",
+          "value": "Aya Healthcare"
+        },
+        {
+          "field": "discount",
+          "value": "Aya Healthcare member discount of 18%, 20% or 22% off of the Standard Rate at participating Hotels by Wyndham in the U.S. only; for listed brands excluding Hawthorn Suites, stays of 1-13 consecutive nights receive 18% off and stays of 14+ consecutive nights receive 22% off; for Hawthorn Suites by Wyndham, stays of 1-11 nights receive 18% off, 12-29 nights receive 20% off, and 30+ nights receive 22% off."
+        },
+        {
+          "field": "eligibility",
+          "value": "Offered to any guest who is employed by, associated with or a member of any company, association or group with a then valid membership to Aya Healthcare."
+        },
+        {
+          "field": "scope",
+          "value": "Participating Hotels by Wyndham in the U.S. only; not offered at Wyndham Alltra hotels. Must be booked via the Aya member benefits portal, wyndhamhotels.com with corporate code 1000012794, the toll-free reservation call center at 1-800-407-9832, or the Wyndham Hotels & Resorts app with corporate code 1000012794. Blackout dates and restrictions may apply; rate may not be combined with any other offer or discount."
+        }
+      ],
+      "supported_fields": [
+        "code",
+        "company",
+        "discount",
+        "eligibility",
+        "scope"
       ]
     },
     {
@@ -13657,6 +13698,65 @@
       "lifecycle_status": "listed",
       "record_id": "r_b635421dd74f2b7984958b44",
       "scope": null,
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "brand": "wyndham",
+      "claims": [
+        {
+          "evidence_ids": [
+            "e_a49f2ed7fb62c1f85885aa91"
+          ],
+          "evidence_level": "source_confirmed",
+          "field": "code",
+          "value": "1000012794"
+        },
+        {
+          "evidence_ids": [
+            "e_a49f2ed7fb62c1f85885aa91"
+          ],
+          "evidence_level": "source_confirmed",
+          "field": "company",
+          "value": "Aya Healthcare"
+        },
+        {
+          "evidence_ids": [
+            "e_a49f2ed7fb62c1f85885aa91"
+          ],
+          "evidence_level": "source_confirmed",
+          "field": "discount",
+          "value": "Aya Healthcare member discount of 18%, 20% or 22% off of the Standard Rate at participating Hotels by Wyndham in the U.S. only; for listed brands excluding Hawthorn Suites, stays of 1-13 consecutive nights receive 18% off and stays of 14+ consecutive nights receive 22% off; for Hawthorn Suites by Wyndham, stays of 1-11 nights receive 18% off, 12-29 nights receive 20% off, and 30+ nights receive 22% off."
+        },
+        {
+          "evidence_ids": [
+            "e_a49f2ed7fb62c1f85885aa91"
+          ],
+          "evidence_level": "source_confirmed",
+          "field": "eligibility",
+          "value": "Offered to any guest who is employed by, associated with or a member of any company, association or group with a then valid membership to Aya Healthcare."
+        },
+        {
+          "evidence_ids": [
+            "e_a49f2ed7fb62c1f85885aa91"
+          ],
+          "evidence_level": "source_confirmed",
+          "field": "scope",
+          "value": "Participating Hotels by Wyndham in the U.S. only; not offered at Wyndham Alltra hotels. Must be booked via the Aya member benefits portal, wyndhamhotels.com with corporate code 1000012794, the toll-free reservation call center at 1-800-407-9832, or the Wyndham Hotels & Resorts app with corporate code 1000012794. Blackout dates and restrictions may apply; rate may not be combined with any other offer or discount."
+        }
+      ],
+      "code": "1000012794",
+      "company": "Aya Healthcare",
+      "content_changed_at": "2026-11-27T01:01:17Z",
+      "eligibility": "Offered to any guest who is employed by, associated with or a member of any company, association or group with a then valid membership to Aya Healthcare.",
+      "evidence_ids": [
+        "e_a49f2ed7fb62c1f85885aa91"
+      ],
+      "evidence_level": "source_confirmed",
+      "first_seen_at": "2026-11-27T01:01:17Z",
+      "lifecycle_status": "listed",
+      "record_id": "r_ba15c6ffb9ec402109f8e6b4",
+      "scope": "Participating Hotels by Wyndham in the U.S. only; not offered at Wyndham Alltra hotels. Must be booked via the Aya member benefits portal, wyndhamhotels.com with corporate code 1000012794, the toll-free reservation call center at 1-800-407-9832, or the Wyndham Hotels & Resorts app with corporate code 1000012794. Blackout dates and restrictions may apply; rate may not be combined with any other offer or discount.",
       "valid_from": null,
       "valid_until": null
     },
